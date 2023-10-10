@@ -10,7 +10,8 @@ import siswaBelajar from "../asset/siswa_belajar.png";
 import guru from "../asset/master_teacher.png";
 import siswaBerhasil from "../asset/siswa_berhasil.png";
 import tingkatKepuasan from "../asset/tingkat_kepuasan_siswa.png";
-import mahasiswa from "../asset/foto_mahasiswa.png"
+import mahasiswa from "../asset/foto_mahasiswa.png";
+import wave from "../asset/wave.png"
 
 const landingPage = () => {
   return (
@@ -22,13 +23,12 @@ const landingPage = () => {
       <div className="main-box">
         <div className="main-title">
           <h1 className="title-edm">
-            Edumatrix Education, Bimbingan Belajar Les Privat
+            Edumatrix Indonesia, Bimbingan Belajar Les Privat
           </h1>
           <p className="main-paragraf">
-            Kami Menyediakan Layanan Terbaik Guru Les Privat Untuk TK, SD, SMP,
-            SMA, UN, OSN, UTBK, Simak UI, SBMPTN. Les Privat Online dan Guru ke
-            Rumah – Kurikulum Nasional & Internasional Pendampingan Belajar
-            Privat 1 Guru 1 Siswa, Secara Profesional dengan Smart Methode
+            Hanya di Edumatrix Indonesia, program belajar SD, SMP, SMA untuk
+            seluruh siswa di Indonesia disertai dengan layanan konsultasi
+            akademik, dan kualitas belajar yang terukur.
           </p>
 
           <a

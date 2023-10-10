@@ -22,10 +22,16 @@ body {
 .logo-edm {
   margin-left: 18%;
   width: 13%;
+  margin-top: 10px;
 }
 .text-nav {
   text-align: center;
   padding: 20px;
+}
+.wave {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
 }
 .main-box {
   display: flex;
@@ -40,6 +46,9 @@ body {
   padding-top: 120px;
   padding-bottom: 50px;
   color: white;
+  /* background-image: url(../asset/wave1.png);
+  background-size: 90%; */
+
 }
 .img-student {
   width: 40%;
