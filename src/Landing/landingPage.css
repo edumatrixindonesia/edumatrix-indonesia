@@ -1,0 +1,448 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo&family=Montserrat:wght@900&family=Pixelify+Sans:wght@500&family=Poppins:wght@200;300;400;500;600;700&family=Roboto:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Heebo", sans-serif;
+  font-family: "Pixelify Sans", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+.navbar {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+  background-color: #0d387c;
+}
+.logo-edm {
+  margin-left: 18%;
+  width: 13%;
+}
+.text-nav {
+  text-align: center;
+  padding: 20px;
+}
+.main-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 100%; */
+  height: auto;
+  background-color: #0d387c;
+  border-radius: 100% / 0 0 20% 20%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 120px;
+  padding-bottom: 50px;
+  color: white;
+}
+.img-student {
+  width: 40%;
+  margin-left: 5%;
+}
+.main-title {
+  width: 30%;
+}
+.main-paragraf {
+  text-align: justify;
+  margin-top: 15px;
+  font-family: "Poppins", sans-serif;
+}
+.box-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-left: 20%;
+    padding-right: 20%; */
+  background-color: white;
+  box-shadow: #0d387c77 0px 3px 50px;
+  padding: 3%;
+  width: 50%;
+  border-radius: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.parent-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -5%;
+}
+.btn-daftar {
+  margin-top: 50px;
+  width: 100%;
+}
+.btn-png {
+  margin-top: 40px;
+  width: 60%;
+}
+.icon-wa {
+  position: fixed;
+  width: 35px;
+  height: 35px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+  border: 10px solid #25d366;
+}
+.icon-phone {
+  position: fixed;
+  width: 28px;
+  height: 28px;
+  bottom: 120px;
+  right: 40px;
+  background-color: #f53367;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+  border: 14px solid #f53367;
+}
+.parent-boxcall1 {
+  position: fixed;
+  width: 161px;
+  bottom: 46px;
+  right: 100px;
+  background-color: #ebebeb;
+  color: #fff;
+  z-index: 100;
+  padding: 10px;
+  color: black;
+  font-size: 13px;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+}
+.parent-boxcall2 {
+  position: fixed;
+  width: 154px;
+  bottom: 130px;
+  right: 100px;
+  background-color: #ebebeb;
+  color: #fff;
+  z-index: 100;
+  padding: 10px;
+  color: black;
+  font-size: 13px;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* SISWA BELAJAR */
+.siswa-belajar1 {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.siswa-belajar {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.img-siswa-belajar {
+  width: 60%;
+}
+.angka {
+  font-weight: bold;
+  color: #0d387c;
+  font-size: 14px;
+}
+.span-desk {
+  color: rgb(41, 41, 41);
+}
+
+/* WELCOME */
+.welcome-edm {
+  margin-top: 70px;
+  color: #0d387c;
+}
+.title-welcome {
+  text-align: center;
+}
+.content-welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-top: 50px;
+}
+.p-welcome {
+  font-family: "Poppins", sans-serif;
+  text-align: justify;
+  font-size: 18px;
+}
+.img-mahasiswa {
+  width: 60%;
+  margin-left: 50px;
+}
+
+/* REASPONSIVE */
+/* IPDAD */
+@media only screen and (max-width: 768px) {
+  .main-box {
+    display: block;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .img-student {
+    width: 100%;
+  }
+  .main-title {
+    width: 100%;
+  }
+  .box-detail {
+    width: 85% !important;
+    margin-top: -13%;
+  }
+  .logo-edm {
+    width: 30%;
+    margin-left: 50px;
+  }
+  .title-welcome {
+    font-size: 30px;
+  }
+  .content-welcome {
+    display: grid;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .img-mahasiswa {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .img-student {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  .main-box {
+    display: block;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .img-student {
+    width: 100%;
+    margin-left: 0;
+  }
+  .main-title {
+    width: 100%;
+  }
+  .box-detail {
+    width: 80%;
+    margin-top: -13%;
+  }
+  .content-welcome {
+    display: grid;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .p-welcome {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .img-mahasiswa {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .logo-edm {
+    width: 30%;
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 912px) {
+  .main-box {
+    display: block;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .img-student {
+    width: 100%;
+    margin-left: 0;
+  }
+  .main-title {
+    width: 100%;
+  }
+  .box-detail {
+    width: 80%;
+    margin-top: -13%;
+  }
+  .main-paragraf {
+    font-size: 20px;
+  }
+  .angka {
+    font-size: 20px;
+  }
+  .logo-edm {
+    width: 30%;
+    margin-left: 65px;
+  }
+  .content-welcome {
+    display: grid;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .p-welcome {
+    margin-right: 0;
+    margin-left: 0;
+    font-size: 20px;
+  }
+  .img-mahasiswa {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .box-detail {
+    display: grid;
+    place-items: center;
+    height: auto;
+    margin-top: -15% !important;
+  }
+  .siswa-belajar {
+    width: 25%;
+    margin-top: 12px;
+  }
+  .img-siswa-belajar {
+    width: 90%;
+  }
+  .angka {
+    width: 100%;
+  }
+  .main-box {
+    padding-top: 70px;
+  }
+  .main-paragraf {
+    font-size: 15px;
+  }
+  .angka {
+    font-size: 15px;
+  }
+  .parent-boxcall2 {
+    display: none;
+  }
+  .parent-boxcall1 {
+    display: none;
+  }
+  .logo-edm {
+    margin-left: 40px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .main-box {
+    display: block;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .img-student {
+    width: 100%;
+  }
+  .main-title {
+    width: 100%;
+  }
+  .box-detail {
+    width: 80%;
+    margin-top: -13%;
+  }
+  .content-welcome {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .main-box {
+    padding-bottom: 100px;
+  }
+}
+
+/* ----------------------------------------------------- */
+
+/* HP */
+@media only screen and (max-width: 414px) {
+  .box-detail {
+    display: grid;
+    place-items: center;
+    height: auto;
+    margin-top: -23% !important;
+  }
+  .siswa-belajar {
+    width: 25%;
+    margin-top: 12px;
+  }
+  .img-siswa-belajar {
+    width: 90%;
+  }
+  .angka {
+    width: 100%;
+  }
+  .main-box {
+    padding-top: 70px;
+  }
+  .title-edm {
+    font-size: 30px;
+  }
+  .btn-png {
+    width: 75%;
+  }
+  .logo-edm {
+    width: 40%;
+    margin-left: 30px;
+  }
+  .parent-boxcall2 {
+    display: none;
+  }
+  .parent-boxcall1 {
+    display: none;
+  }
+  .siswa-belajar {
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  .box-detail {
+    width: 80%;
+    margin-top: -35% !important;
+  }
+  .img-mahasiswa {
+    width: 100%;
+  }
+  .logo-edm {
+    margin-left: 15px;
+  }
+  .title-edm {
+    font-size: 23px;
+  }
+  .p-welcome {
+    font-size: 15px;
+  }
+  .title-welcome {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .box-detail {
+    width: 80%;
+    margin-top: -25% !important;
+  }
+}
