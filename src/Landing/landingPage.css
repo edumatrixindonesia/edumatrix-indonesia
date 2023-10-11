@@ -19,10 +19,14 @@ body {
   height: 50%;
   background-color: #0d387c;
 }
+.title-edm {
+  font-size: 28px;
+}
 .logo-edm {
   margin-left: 18%;
   width: 13%;
   margin-top: 10px;
+  cursor: pointer;
 }
 .text-nav {
   text-align: center;
@@ -46,8 +50,8 @@ body {
   padding-top: 120px;
   padding-bottom: 50px;
   color: white;
-  background-image: url(../asset/wave2.png);
-  background-size: 90%;
+  /* background-image: url(../asset/wave2.png);
+  background-size: 90%; */
 
 }
 .img-student {
@@ -162,6 +166,9 @@ body {
 .img-siswa-belajar {
   width: 60%;
 }
+.img-siswa-belajar1 {
+  width: 60%;
+}
 .angka {
   font-weight: bold;
   color: #0d387c;
@@ -170,14 +177,19 @@ body {
 .span-desk {
   color: rgb(41, 41, 41);
 }
+.animate-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /* WELCOME */
 .welcome-edm {
-  margin-top: 70px;
+  margin-top: 180px;
   color: #0d387c;
 }
 .title-welcome {
-  text-align: center;
+  width: 100%;
 }
 .content-welcome {
   display: flex;
@@ -185,17 +197,336 @@ body {
   align-items: center;
   padding-left: 20%;
   padding-right: 20%;
-  margin-top: 50px;
 }
 .p-welcome {
   font-family: "Poppins", sans-serif;
   text-align: justify;
   font-size: 18px;
+  width: 100%;
+  margin-top: 20px;
 }
 .img-mahasiswa {
-  width: 60%;
+  width: 50%;
   margin-left: 50px;
 }
+
+/* KURIKULUM/ PENGAJAR/ UNIVERSITAS */
+.box-pengajar {
+  background-color: #0d387c;
+  margin-top: 18%;
+}
+.title-pengajar {
+  text-align: center;
+  color: white;
+  padding: 30px;
+}
+.parent-paragraf {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.p-pengajar {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 18px;
+  color: #0d387c;
+  width: 60%;
+}
+.parent-univ {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-univ {
+  width: 60%;
+  margin-top: 50px;
+}
+.parent-mt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title-mt {
+  text-align: center;
+  margin-top: 90px;
+  color: #0d387c;
+  width: 40%;
+  font-size: 35px;
+}
+
+/* CARD KURIKULUM */
+.big-parent-card {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  margin-top: 50px;
+}
+.img-card-nasional {
+  width: 40%;
+}
+.img-card {
+  width: 20%;
+}
+.img-card-ib {
+  width: 40%;
+}
+.img-card-ipc {
+  width: 20%;
+}
+
+/* NASIONAL */
+.card {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 25%;
+  border-radius: 15px;
+  padding-bottom: 30px;
+}
+.title-card-nasional {
+  text-align: center;
+  background-color: #0d387c;
+  color: white;
+  padding: 30px;
+  border-radius: 15px 15px 0 0;
+}
+.parent-img-nasional {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.parent-desk {
+  font-family: "Poppins", sans-serif;
+  margin-top: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.icon-circle {
+  font-size: 7px;
+  margin-right: 10px;
+}
+.icon-teks {
+  display: flex;
+  align-items: center;
+}
+
+/* INTERNASIONAL */
+.title-card-internasional {
+  text-align: center;
+  background-color: #0d387c;
+  color: white;
+  padding: 30px;
+  border-radius: 15px 15px 0 0;
+}
+.parent-img-internasional {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.parent-desk {
+  font-family: "Poppins", sans-serif;
+  margin-top: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.icon-circle {
+  font-size: 7px;
+  margin-right: 10px;
+}
+.icon-teks {
+  display: flex;
+  align-items: center;
+}
+
+/* PENGAPLIKAISAN KURIKULUM */
+.pengaplikasian-kurikulum {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+  color: #0d387c;
+}
+.title-pengaplikasian {
+  width: 40%;
+  text-align: center;
+}
+.icon-teks-pengaplikasian {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.parent-teks-subject {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subject-teks {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  background-color: #0d387c;
+  color: white;
+  margin-top: 20px;
+  width: 90%;
+}
+.parent-desk-ipc {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  margin-top: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.line-2 {
+  margin-left: 20%;
+}
+.title-card-internasional-ipc {
+  text-align: center;
+  background-color: #0d387c;
+  color: white;
+  padding: 30px;
+  border-radius: 15px 15px 0 0;
+  
+}
+.title-card-internasional-spc {
+  text-align: center;
+  background-color: #0d387c;
+  color: white;
+  padding: 18px;
+  border-radius: 15px 15px 0 0;
+}
+
+/* CAMBRIDGE */
+.box-cambridge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.card-cambridge {
+  width: 54%;
+  height: auto;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: center;
+  border-radius: 15px;
+  padding-bottom: 50px;
+  /* margin-left: 23%;
+  margin-right: 23%; */
+}
+.title-cambridge {
+  background-color: #0d387c;
+  padding: 30px;
+  border-radius: 15px 15px 0 0;
+  color: white;
+  font-size: 25px;
+}
+.img-cambridge {
+  width: 33%;
+  margin-top: 25px;
+}
+/* ALL PRIMARY */
+.all-primary {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 60px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+/* PRIMARY */
+.cambridge-primary {
+  text-align: center;
+  background-color: #0d387c;
+  color: white;
+  padding: 18px;
+  border-radius: 15px 15px 0 0;
+}
+.card-cambridge-primary {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 40%;
+  border-radius: 15px;
+  padding-bottom: 80px;
+  text-align: left;
+}
+.icon-teks-primary {
+  display: flex;
+  align-items: center;
+  margin-top: 13px;
+}
+/* SECONDARY */
+.cambridge-secondary {
+  text-align: center;
+  background-color: #0d387c;
+  color: white;
+  padding: 7px;
+  border-radius: 15px 15px 0 0;
+}
+.card-cambridge-secondary {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 40%;
+  border-radius: 15px;
+  padding-bottom: 80px;
+  text-align: left;
+}
+/* UPPER */
+.cambridge-upper {
+  text-align: center;
+  background-color: #0d387c;
+  color: white;
+  padding: 7px;
+  border-radius: 15px 15px 0 0;
+}
+.card-cambridge-upper {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 40%;
+  border-radius: 15px;
+  padding-bottom: 80px;
+  text-align: left;
+}
+
+/* ADVANCE */
+/* ALL PRIMARY */
+.all-advance {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 60px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+/* ADVENACE */
+.cambridge-advance {
+  text-align: center;
+  background-color: #f53367;
+  color: white;
+  padding: 18px;
+  border-radius: 15px 15px 0 0;
+}
+.card-cambridge-advance {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 40%;
+  border-radius: 15px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+.icon-teks-advance {
+  display: flex;
+  align-items: center;
+  margin-top: 13px;
+}
+hr {
+  margin-top: 10px;
+  background-color: #e6e6e6;
+  height: 1px;
+  border: none;
+}
+
 
 /* REASPONSIVE */
 /* IPDAD */
@@ -235,6 +566,95 @@ body {
   .img-student {
     margin-left: 0;
   }
+  .img-siswa-belajar1 {
+    width: 70%;
+  }
+  .span-desk {
+    font-size: 17px;
+  }
+  .p-pengajar {
+    font-size: 20px;
+    text-align: justify;
+    width: 80%;
+  }
+  .img-univ {
+    width: 80%;
+  }
+  .title-mt {
+    width: 80%;
+  }
+  .card {
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  .big-parent-card {
+    gap: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .title-card-internasional {
+    padding: 28px;
+  }
+  .title-card-nasional {
+    padding: 28px;
+  }
+  .title-pengaplikasian {
+    width: 100%;
+  }
+  .box-cambridge {
+    width: 100%;
+  }
+  .card-cambridge {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .card-cambridge-primary {
+    padding-bottom: 10px;
+  }
+  .card-cambridge-secondary {
+    padding-bottom: 10px;
+  }
+  .all-primary {
+    gap: 10px;
+  }
+  .cambridge-primary {
+    padding: 10px;
+  }
+  .cambridge-secondary {
+    padding: 10px;
+  }
+  .cambridge-upper {
+    padding: 10px;
+    /* font-size: 18px; */
+  }
+  .all-advance {
+    gap: 10px;
+  }
+  .img-cambridge {
+    width: 40%;
+  }
+  .cambridge-advance {
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 1114px) {
+  .main-box {
+    padding-bottom: 0;
+  }
+  .p-welcome {
+    width: 100%;
+  }
+  .img-mahasiswa {
+    width: 60%;
+  }
+  .content-welcome {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+  .box-detail {
+    width: 80%;
+  }
 }
 
 @media only screen and (max-width: 820px) {
@@ -271,6 +691,47 @@ body {
   .logo-edm {
     width: 30%;
     margin-left: 50px;
+  }
+  .p-pengajar {
+    width: 85%;
+    font-size: 20px;
+    text-align: justify;
+  }
+  .img-univ {
+    width: 85%;
+  }
+  .title-mt {
+    width: 80%;
+  }
+  .big-parent-card {
+    gap: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .card {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .title-pengaplikasian {
+    width: 90%;
+  }
+  .card-cambridge {
+    width: 100%;
+  }
+  .title-card-internasional-ipc {
+    padding: 15px;
+  }
+  .title-card-internasional-spc {
+    padding: 15px;
+  }
+  .cambridge-primary {
+    padding: 12px;
+  }
+  .cambridge-secondary {
+    padding: 12px;
+  }
+  .cambridge-upper {
+    padding: 12px;
   }
 }
 
@@ -316,6 +777,30 @@ body {
     margin-left: 0;
     margin-top: 20px;
   }
+  .p-pengajar {
+    width: 85%;
+    text-align: justify;
+    font-size: 22px;
+  }
+  .img-univ {
+    width: 85%;
+  }
+  .title-mt {
+    width: 100%;
+  }
+  .big-parent-card {
+    margin-left: 58px;
+    margin-right: 58px;
+  }
+  .card {
+    width: 100%;
+  }
+  .title-pengaplikasian {
+    width: 80%;
+  }
+  .card-cambridge {
+    width: 90%;
+  }
 }
 
 @media only screen and (max-width: 540px) {
@@ -353,6 +838,52 @@ body {
   .logo-edm {
     margin-left: 40px;
   }
+  .card-cambridge {
+    width: 100%;
+  }
+  .all-primary {
+    display: grid;
+  }
+  .all-advance {
+    display: grid;
+  }
+  .card-cambridge-primary {
+    width: 100%;
+  }
+  .card-cambridge-secondary {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .card-cambridge-upper {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .card-cambridge-advance {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .title-pengajar {
+    font-size: 25px;
+  }
+  .p-pengajar {
+    font-size: 18px;
+  }
+  .title-mt {
+    font-size: 28px;
+    width: 100%;
+  }
+  .big-parent-card {
+    display: grid;
+  }
+  .img-cambridge {
+    width: 60%;
+  }
+  .title-pengaplikasian {
+    font-size: 30px;
+  }
+  .p-welcome {
+    font-size: 18px;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -375,11 +906,41 @@ body {
     padding-left: 8%;
     padding-right: 8%;
   }
+  .p-pengajar {
+    width: 85%;
+    text-align: justify;
+  }
+  .img-univ {
+    width: 80%;
+  }
+  .title-mt {
+    width: 100%;
+    font-size: 40px;
+  }
+  .big-parent-card {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .card {
+    width: 100%;
+  }
+  .title-pengaplikasian {
+    width: 100%;
+  }
+  .box-cambridge {
+    width: 100%;
+  }
+  .card-cambridge {
+    width: 90%;
+  }
 }
 
 @media only screen and (max-width: 1280px) {
   .main-box {
     padding-bottom: 100px;
+  }
+  .card-cambridge {
+    width: 56%;
   }
 }
 
@@ -398,6 +959,9 @@ body {
     margin-top: 12px;
   }
   .img-siswa-belajar {
+    width: 90%;
+  }
+  .img-siswa-belajar1 {
     width: 90%;
   }
   .angka {
@@ -424,6 +988,621 @@ body {
   }
   .siswa-belajar {
     margin-top: 50px;
+  }
+  .p-welcome {
+    font-size: 17px;
+  }
+  .icon-wa {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    border: 10px solid #25d366;
+  }
+  .icon-phone {
+    position: fixed;
+    width: 23px;
+    height: 23px;
+    bottom: 120px;
+    right: 40px;
+    background-color: #f53367;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    border: 14px solid #f53367;
+  }
+  .img-cambridge {
+    width: 70%;
+  }
+  .card-cambridge {
+    width: 100%;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .card-cambridge-primary {
+    width: 100%;
+    padding-bottom: 40px;
+  }
+  .card-cambridge-secondary {
+    width: 100%;
+    padding-bottom: 40px;
+    margin-top: 20px;
+  }
+  .card-cambridge-upper {
+    width: 100%;
+    padding-bottom: 40px;
+    margin-top: 20px;
+  }
+  .card-cambridge-advance {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .all-primary {
+    display: grid;
+  }
+  .all-advance {
+    display: grid;
+  }
+  .title-cambridge {
+    padding: 20px;
+  }
+  .big-parent-card {
+    display: grid;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .title-mt {
+    font-size: 22px;
+    width: 100%;
+  }
+  .p-pengajar {
+    font-size: 18px;
+  }
+  .title-pengajar {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .box-detail {
+    display: grid;
+    place-items: center;
+    height: auto;
+    margin-top: -23% !important;
+  }
+  .siswa-belajar {
+    width: 25%;
+    margin-top: 12px;
+  }
+  .img-siswa-belajar {
+    width: 90%;
+  }
+  .img-siswa-belajar1 {
+    width: 90%;
+  }
+  .angka {
+    width: 100%;
+  }
+  .main-box {
+    padding-top: 70px;
+  }
+  .title-edm {
+    font-size: 30px;
+  }
+  .btn-png {
+    width: 75%;
+  }
+  .logo-edm {
+    width: 40%;
+    margin-left: 30px;
+  }
+  .parent-boxcall2 {
+    display: none;
+  }
+  .parent-boxcall1 {
+    display: none;
+  }
+  .siswa-belajar {
+    margin-top: 50px;
+  }
+  .p-welcome {
+    font-size: 17px;
+  }
+  .icon-wa {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    border: 10px solid #25d366;
+  }
+  .icon-phone {
+    position: fixed;
+    width: 23px;
+    height: 23px;
+    bottom: 120px;
+    right: 40px;
+    background-color: #f53367;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    border: 14px solid #f53367;
+  }
+  .img-cambridge {
+    width: 70%;
+  }
+  .card-cambridge {
+    width: 100%;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .card-cambridge-primary {
+    width: 100%;
+    padding-bottom: 40px;
+  }
+  .card-cambridge-secondary {
+    width: 100%;
+    padding-bottom: 40px;
+    margin-top: 20px;
+  }
+  .card-cambridge-upper {
+    width: 100%;
+    padding-bottom: 40px;
+    margin-top: 20px;
+  }
+  .card-cambridge-advance {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .all-primary {
+    display: grid;
+  }
+  .all-advance {
+    display: grid;
+  }
+  .title-cambridge {
+    padding: 10px;
+    font-size: 20px;
+  }
+  .big-parent-card {
+    display: grid;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .title-mt {
+    font-size: 19px;
+    width: 100%;
+  }
+  .p-pengajar {
+    font-size: 16px;
+  }
+  .title-pengajar {
+    font-size: 20px;
+    padding: 20px;
+  }
+  .title-pengaplikasian {
+    font-size: 19px;
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .box-detail {
+    display: grid;
+    place-items: center;
+    height: auto;
+    margin-top: -23% !important;
+  }
+  .siswa-belajar {
+    width: 25%;
+    margin-top: 12px;
+  }
+  .img-siswa-belajar {
+    width: 90%;
+  }
+  .img-siswa-belajar1 {
+    width: 90%;
+  }
+  .angka {
+    width: 100%;
+  }
+  .main-box {
+    padding-top: 70px;
+  }
+  .title-edm {
+    font-size: 30px;
+  }
+  .btn-png {
+    width: 75%;
+  }
+  .logo-edm {
+    width: 40%;
+    margin-left: 30px;
+  }
+  .parent-boxcall2 {
+    display: none;
+  }
+  .parent-boxcall1 {
+    display: none;
+  }
+  .siswa-belajar {
+    margin-top: 50px;
+  }
+  .p-welcome {
+    font-size: 17px;
+  }
+  .icon-wa {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    border: 10px solid #25d366;
+  }
+  .icon-phone {
+    position: fixed;
+    width: 23px;
+    height: 23px;
+    bottom: 120px;
+    right: 40px;
+    background-color: #f53367;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    border: 14px solid #f53367;
+  }
+  .img-cambridge {
+    width: 70%;
+  }
+  .card-cambridge {
+    width: 100%;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .card-cambridge-primary {
+    width: 100%;
+    padding-bottom: 40px;
+  }
+  .card-cambridge-secondary {
+    width: 100%;
+    padding-bottom: 40px;
+    margin-top: 20px;
+  }
+  .card-cambridge-upper {
+    width: 100%;
+    padding-bottom: 40px;
+    margin-top: 20px;
+  }
+  .card-cambridge-advance {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .all-primary {
+    display: grid;
+  }
+  .all-advance {
+    display: grid;
+  }
+  .title-cambridge {
+    padding: 20px;
+    font-size: 20px;
+  }
+  .big-parent-card {
+    display: grid;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .title-mt {
+    font-size: 19px;
+    width: 100%;
+  }
+  .p-pengajar {
+    font-size: 16px;
+  }
+  .title-pengajar {
+    font-size: 20px;
+    padding: 20px;
+  }
+  .title-pengaplikasian {
+    font-size: 23px;
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 393px) {
+  .box-detail {
+    display: grid;
+    place-items: center;
+    height: auto;
+    margin-top: -23% !important;
+  }
+  .siswa-belajar {
+    width: 25%;
+    margin-top: 12px;
+  }
+  .img-siswa-belajar {
+    width: 90%;
+  }
+  .img-siswa-belajar1 {
+    width: 90%;
+  }
+  .angka {
+    width: 100%;
+  }
+  .main-box {
+    padding-top: 70px;
+  }
+  .title-edm {
+    font-size: 30px;
+  }
+  .btn-png {
+    width: 75%;
+  }
+  .logo-edm {
+    width: 40%;
+    margin-left: 30px;
+  }
+  .parent-boxcall2 {
+    display: none;
+  }
+  .parent-boxcall1 {
+    display: none;
+  }
+  .siswa-belajar {
+    margin-top: 50px;
+  }
+  .p-welcome {
+    font-size: 17px;
+  }
+  .icon-wa {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    border: 10px solid #25d366;
+  }
+  .icon-phone {
+    position: fixed;
+    width: 23px;
+    height: 23px;
+    bottom: 120px;
+    right: 40px;
+    background-color: #f53367;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    border: 14px solid #f53367;
+  }
+  .img-cambridge {
+    width: 70%;
+  }
+  .card-cambridge {
+    width: 100%;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .card-cambridge-primary {
+    width: 100%;
+    padding-bottom: 40px;
+  }
+  .card-cambridge-secondary {
+    width: 100%;
+    padding-bottom: 40px;
+    margin-top: 20px;
+  }
+  .card-cambridge-upper {
+    width: 100%;
+    padding-bottom: 40px;
+    margin-top: 20px;
+  }
+  .card-cambridge-advance {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .all-primary {
+    display: grid;
+  }
+  .all-advance {
+    display: grid;
+  }
+  .title-cambridge {
+    padding: 20px;
+    font-size: 20px;
+  }
+  .big-parent-card {
+    display: grid;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .title-mt {
+    font-size: 19px;
+    width: 100%;
+  }
+  .p-pengajar {
+    font-size: 16px;
+  }
+  .title-pengajar {
+    font-size: 18px;
+    padding: 20px;
+  }
+  .title-pengaplikasian {
+    font-size: 23px;
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 412px) {
+  .box-detail {
+    display: grid;
+    place-items: center;
+    height: auto;
+    margin-top: -23% !important;
+  }
+  .siswa-belajar {
+    width: 25%;
+    margin-top: 12px;
+  }
+  .img-siswa-belajar {
+    width: 90%;
+  }
+  .img-siswa-belajar1 {
+    width: 90%;
+  }
+  .angka {
+    width: 100%;
+  }
+  .main-box {
+    padding-top: 70px;
+  }
+  .title-edm {
+    font-size: 30px;
+  }
+  .btn-png {
+    width: 75%;
+  }
+  .logo-edm {
+    width: 40%;
+    margin-left: 30px;
+  }
+  .parent-boxcall2 {
+    display: none;
+  }
+  .parent-boxcall1 {
+    display: none;
+  }
+  .siswa-belajar {
+    margin-top: 50px;
+  }
+  .p-welcome {
+    font-size: 17px;
+  }
+  .icon-wa {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    border: 10px solid #25d366;
+  }
+  .icon-phone {
+    position: fixed;
+    width: 23px;
+    height: 23px;
+    bottom: 120px;
+    right: 40px;
+    background-color: #f53367;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    border: 14px solid #f53367;
+  }
+  .img-cambridge {
+    width: 70%;
+  }
+  .card-cambridge {
+    width: 100%;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .card-cambridge-primary {
+    width: 100%;
+    padding-bottom: 40px;
+  }
+  .card-cambridge-secondary {
+    width: 100%;
+    padding-bottom: 40px;
+    margin-top: 20px;
+  }
+  .card-cambridge-upper {
+    width: 100%;
+    padding-bottom: 40px;
+    margin-top: 20px;
+  }
+  .card-cambridge-advance {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .all-primary {
+    display: grid;
+  }
+  .all-advance {
+    display: grid;
+  }
+  .title-cambridge {
+    padding: 20px;
+    font-size: 20px;
+  }
+  .big-parent-card {
+    display: grid;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .title-mt {
+    font-size: 19px;
+    width: 100%;
+  }
+  .p-pengajar {
+    font-size: 16px;
+  }
+  .title-pengajar {
+    font-size: 18px;
+    padding: 20px;
+  }
+  .title-pengaplikasian {
+    font-size: 23px;
+    width: 90%;
   }
 }
 
