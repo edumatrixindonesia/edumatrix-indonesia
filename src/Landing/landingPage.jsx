@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { faCircle, faPhone } from "@fortawesome/free-solid-svg-icons";
 import logo from "../asset/logo_edm.png";
-import student from "../asset/foto_siswa_sd-sma.png";
+import student from "../asset/jumbotron.png";
 import button from "../asset/telephone .png";
 import siswaBelajar from "../asset/siswa_belajar.png";
 import guru from "../asset/master_teacher.png";
