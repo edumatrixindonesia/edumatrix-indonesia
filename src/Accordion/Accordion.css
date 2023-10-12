@@ -1,0 +1,102 @@
+/* Style the accordion section */
+.accordion__section {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #ffffff;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  outline: none;
+  transition: background-color 0.6s ease;
+  border-radius: 15px 15px 0 0;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/* .accordion:hover,
+.active {
+  background-color: #cacaca;
+} */
+
+/* Style the accordion content title */
+.accordion__title {
+  font-weight: 600;
+  font-size: 20px;
+  color: rgb(61, 61, 61);
+  text-align: center;
+}
+
+/* Style the accordion chevron icon */
+.accordion__icon {
+  margin-left: auto;
+  transition: transform 0.6s ease;
+}
+
+/* Style to rotate icon when state is active */
+.rotate {
+  transform: rotate(90deg);
+}
+
+/* Style the accordion content panel. Note: hidden by default */
+.accordion__content {
+  background-color: #cccccc;
+  overflow: hidden;
+  transition: max-height 0.6s ease;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 0 0 15px 15px;
+  margin-bottom: 20px;
+}
+
+/* Style the accordion content text */
+.accordion__text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 18px;
+  font-weight: bold;
+}
+
+
+@media only screen and (max-width: 414px) {
+    /* .accordion__section {
+        margin-left: 18px;
+    } */
+    .accordion {
+        width: 90%;
+    }
+    .accordion__section {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    /* .accordion__section {
+        margin-left: 18px;
+    } */
+    .accordion {
+        width: 93%;
+    }
+    .accordion__section {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    /* .accordion__section {
+        margin-left: 18px;
+    } */
+    .accordion {
+        width: 86%;
+    }
+    .accordion__section {
+        width: 100%;
+    }
+}

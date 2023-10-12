@@ -281,6 +281,12 @@ body {
   width: 25%;
   border-radius: 15px;
   padding-bottom: 30px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.card:hover {
+  box-shadow: #0d387c 0px 3px 8px;
+  transition: 0.5s;
 }
 .title-card-nasional {
   text-align: center;
@@ -413,6 +419,12 @@ body {
   padding-bottom: 50px;
   /* margin-left: 23%;
   margin-right: 23%; */
+  cursor: pointer;
+  transition: 0.5s;
+}
+.card-cambridge:hover {
+  box-shadow: #0d387c 0px 3px 8px;
+  transition: 0.5s;
 }
 .title-cambridge {
   background-color: #0d387c;
@@ -450,6 +462,12 @@ body {
   border-radius: 15px;
   padding-bottom: 80px;
   text-align: left;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.card-cambridge-primary:hover {
+  box-shadow: #0d387c 0px 3px 8px;
+  transition: 0.5s;
 }
 .icon-teks-primary {
   display: flex;
@@ -459,7 +477,7 @@ body {
 /* SECONDARY */
 .cambridge-secondary {
   text-align: center;
-  background-color: #0d387c;
+  background-color: #11c8ea;
   color: white;
   padding: 7px;
   border-radius: 15px 15px 0 0;
@@ -471,11 +489,17 @@ body {
   border-radius: 15px;
   padding-bottom: 80px;
   text-align: left;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.card-cambridge-secondary:hover {
+  box-shadow: #11c8ea 0px 3px 8px;
+  transition: 0.5s;
 }
 /* UPPER */
 .cambridge-upper {
   text-align: center;
-  background-color: #0d387c;
+  background-color: #ffaf28;
   color: white;
   padding: 7px;
   border-radius: 15px 15px 0 0;
@@ -487,6 +511,11 @@ body {
   border-radius: 15px;
   padding-bottom: 80px;
   text-align: left;
+  transition: 0.5s;
+}
+.card-cambridge-upper:hover {
+  box-shadow: #ffaf28 0px 3px 8px;
+  transition: 0.5s;
 }
 
 /* ADVANCE */
@@ -514,6 +543,11 @@ body {
   border-radius: 15px;
   padding-bottom: 20px;
   text-align: left;
+  transition: 0.5s;
+}
+.card-cambridge-advance:hover {
+  box-shadow: #f53367 0px 3px 8px;
+  transition: 0.5s;
 }
 .icon-teks-advance {
   display: flex;
@@ -525,6 +559,143 @@ hr {
   background-color: #e6e6e6;
   height: 1px;
   border: none;
+}
+
+/* LAYANAN EDM */
+.layanan-edm {
+  display: flex;
+  justify-content: center;
+  background-color: #0d387c;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.title-layanan {
+  text-align: center;
+  padding: 20px;
+  background-color: #0d387c;
+  color: white;
+  width: 20%;
+}
+/* ACORDION SEKOLAH */
+/* SD */
+.all-accordion {
+  margin-top: 23%;
+  padding-left: 23%;
+  padding-right: 23%;
+}
+.box-sd {
+  display: flex;
+  background-color: #f53367;
+  height: auto;
+  border-radius: 20px 20px 0 0;
+}
+.img-sd {
+  width: 90%;
+  margin-top: -23%;
+}
+.accordion-sd {
+  width: 100%;
+}
+.title-sd {
+  color: white;
+  margin-top: 23px;
+  width: 90%;
+  /* text-align: justify; */
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+/* SMP */
+.box-smp {
+  display: flex;
+  background-color: #0d387c;
+  height: auto;
+}
+.img-smp {
+  width: 90%;
+  margin-top: -10%;
+}
+.accordion-smp {
+  width: 100%;
+}
+.title-smp {
+  color: white;
+  margin-top: 23px;
+  width: 90%;
+  /* text-align: justify; */
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+/* SMA */
+.box-sma {
+  display: flex;
+  background-color: #a0a0a0;
+  height: auto;
+  border-radius: 0 0 20px 20px;
+}
+.img-sma {
+  width: 90%;
+  margin-top: -10%;
+}
+.accordion-sma {
+  width: 100%;
+}
+.title-sma {
+  color: white;
+  margin-top: 23px;
+  width: 90%;
+  /* text-align: justify; */
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+/* OSN */
+.box-osn {
+  background-color: #0d387c;
+  color: white;
+  padding: 25px;
+  text-align: center;
+  margin-top: 13%;
+}
+.container-isi-osn {
+  padding-left: 23%;
+  padding-right: 23%;
+}
+.mt-osn {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.img-osn {
+  width: 8%;
+  margin-top: -5%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 100px;
+}
+.h3-mt {
+  font-size: 24px;
+  width: 55%;
+  color: #0d387c;
+}
+.icon-bullet-mt {
+  font-size: 8px;
+  margin-right: 20px;
+}
+.paragraf-mt {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.p-mt {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: #0d387c;
+  margin-top: 10px;
+}
+.osn-sd {
+  margin-top: 40px;
+  background-color: #0d387c;
+  color: white;
+  padding: 5px;
+  padding-left: 28px;
 }
 
 
@@ -601,9 +772,11 @@ hr {
   .title-pengaplikasian {
     width: 100%;
   }
-  .box-cambridge {
+  /* .box-cambridge {
     width: 100%;
-  }
+    margin-left: 0;
+    margin-right: 0;
+  } */
   .card-cambridge {
     margin-left: 50px;
     margin-right: 50px;
@@ -635,6 +808,29 @@ hr {
   }
   .cambridge-advance {
     padding: 10px;
+  }
+  .title-layanan {
+    width: 100%;
+    font-size: 25px;
+  }
+  .all-accordion {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .title-sd, .title-smp, .title-sma {
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+  }
+  .img-sd, .img-smp, .img-sma {
+    width: 70%;
+  }
+  .container-isi-osn {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .img-osn {
+    width: 120px;
+    margin-top: -12%;
   }
 }
 
@@ -717,6 +913,8 @@ hr {
   }
   .card-cambridge {
     width: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
   }
   .title-card-internasional-ipc {
     padding: 15px;
@@ -732,6 +930,29 @@ hr {
   }
   .cambridge-upper {
     padding: 12px;
+  }
+  .title-layanan {
+    width: 100%;
+    font-size: 30px;
+  }
+  .all-accordion {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .title-sd, .title-smp, .title-sma {
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+  }
+  .img-sd, .img-smp, .img-sma {
+    width: 70%;
+  }
+  .container-isi-osn {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .img-osn {
+    width: 120px;
+    margin-top: -12%;
   }
 }
 
@@ -798,8 +1019,31 @@ hr {
   .title-pengaplikasian {
     width: 80%;
   }
+  /* .box-cambridge {
+    width: 100%;
+  } */
   .card-cambridge {
-    width: 90%;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .all-accordion {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .title-sd, .title-smp, .title-sma {
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+  }
+  .img-sd, .img-smp, .img-sma {
+    width: 70%;
+  }
+  .container-isi-osn {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .img-osn {
+    width: 120px;
+    margin-top: -12%;
   }
 }
 
@@ -884,6 +1128,32 @@ hr {
   .p-welcome {
     font-size: 18px;
   }
+  .box-sd, .box-smp, .box-sma {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+  }
+  .img-sd {
+    margin-top: 0;
+  }
+  .img-smp, .img-sma {
+    margin-top: 25px;
+  }
+  .accordion-sd {
+    text-align: center;
+  }
+  .title-sd, .title-smp, .title-sma {
+    width: 100%;
+  }
+  .h3-mt {
+    width: 100%;
+  }
+  .title-osn {
+    font-size: 25px;
+  }
+  .box-osn {
+    margin-top: 150px;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -927,11 +1197,35 @@ hr {
   .title-pengaplikasian {
     width: 100%;
   }
-  .box-cambridge {
+  /* .box-cambridge {
     width: 100%;
-  }
+    margin-left: 0;
+  } */
   .card-cambridge {
     width: 90%;
+  }
+  .title-layanan {
+    font-size: 30px;
+    width: 100%;
+  }
+  .all-accordion {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .title-sd, .title-smp, .title-sma {
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+  }
+  .img-sd, .img-smp, .img-sma {
+    width: 70%;
+  }
+  .container-isi-osn {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .img-osn {
+    width: 120px;
+    margin-top: -12%;
   }
 }
 
@@ -939,8 +1233,31 @@ hr {
   .main-box {
     padding-bottom: 100px;
   }
-  .card-cambridge {
+  /* .card-cambridge {
     width: 56%;
+  } */
+  .title-layanan {
+    font-size: 30px;
+    width: 100%;
+  }
+  .all-accordion {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .title-sd, .title-smp, .title-sma {
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+  }
+  .img-sd, .img-smp, .img-sma {
+    width: 70%;
+  }
+  .container-isi-osn {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .img-osn {
+    width: 120px;
+    margin-top: -12%;
   }
 }
 
@@ -1071,6 +1388,38 @@ hr {
   }
   .title-pengajar {
     font-size: 22px;
+  }
+  .title-layanan {
+    font-size: 24px;
+  }
+  .box-sd, .box-smp, .box-sma {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+  }
+  .img-sd {
+    margin-top: 0;
+  }
+  .img-smp, .img-sma {
+    margin-top: 25px;
+  }
+  .accordion-sd {
+    text-align: center;
+  }
+  .title-sd, .title-smp, .title-sma {
+    width: 100%;
+  }
+  .h3-mt {
+    width: 100%;
+  }
+  .title-osn {
+    font-size: 25px;
+  }
+  .img-osn {
+    margin-top: -23%;
+  }
+  .box-osn {
+    margin-top: 150px;
   }
 }
 
@@ -1634,3 +1983,45 @@ hr {
     margin-top: -25% !important;
   }
 }
+
+/* LENOVO */
+/* @media only screen and (max-width: 1300px) {
+  .btn-png {
+    width: 80%;
+  }
+  .box-detail {
+    margin-top: 0%;
+    width: 80%;
+  }
+  .main-box {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .content-welcome {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .p-pengajar {
+    width: 80%;
+    text-align: justify;
+  }
+  .img-univ {
+    width: 80%;
+  }
+  .big-parent-card {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .title-pengaplikasian {
+    width: 50%;
+  }
+  .card {
+    width: 35%;
+  }
+  .card-cambridge {
+    width: 75%;
+  }
+  .title-layanan {
+    width: 30;
+  }
+} */

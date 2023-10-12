@@ -1,0 +1,158 @@
+.inti-carousel {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 40px;
+}
+.box-carousel {
+  width: 50%;
+}
+.btn-left {
+  border-radius: 50px;
+  border: 2px solid white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+}
+.left-arrow {
+  font-size: 35px;
+  color: #e47f17;
+}
+.btn-right {
+  border-radius: 50px;
+  margin-left: 100px;
+  border: 2px solid white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+}
+.right-arrow {
+  font-size: 35px;
+  color: #e47f17;
+}
+.box-carousel {
+  width: 60%;
+  height: 500px;
+  margin: 0 auto;
+}
+.main-carousel {
+  margin: 0 auto;
+  margin-top: 2rem;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 414px) {
+  .main-box {
+    padding-bottom: 100px;
+  }
+  .all-btn {
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  .css-1fzpoyk img {
+    object-fit: scale-down;
+    display: block;
+    max-height: 100%;
+  }
+  .inti-carousel {
+    width: 500%;
+  }
+  .right-arrow {
+    font-size: 45px;
+  }
+  .left-arrow {
+    font-size: 45px;
+  }
+  .main-carousel {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .inti-carousel {
+    width: 300%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .right-arrow {
+    font-size: 45px;
+  }
+  .left-arrow {
+    font-size: 45px;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  .right-arrow {
+    font-size: 45px;
+  }
+  .left-arrow {
+    font-size: 45px;
+  }
+}
+
+@media only screen and (max-width: 912px) {
+    .right-arrow {
+      font-size: 55px;
+    }
+    .left-arrow {
+      font-size: 55px;
+    }
+  }
+
+  @media only screen and (max-width: 540px) {
+    .right-arrow {
+      font-size: 55px;
+    }
+    .left-arrow {
+      font-size: 55px;
+    }
+    .all-btn {
+        margin: 0 auto;
+        margin-top: 2rem;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+      }
+  }
+
+  @media only screen and (max-width: 280px) {
+    .right-arrow {
+      font-size: 45px;
+    }
+    .left-arrow {
+      font-size: 45px;
+    }
+    .all-btn {
+        margin-top: 0;
+    }
+    .inti-carousel {
+        border-radius: 25px;
+    }
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .right-arrow {
+      font-size: 45px;
+    }
+    .left-arrow {
+      font-size: 45px;
+    }
+    .all-btn {
+        margin-top: 0;
+    }
+  }
+
+  @media only screen and (max-width: 1280px) {
+    .right-arrow {
+      font-size: 55px;
+    }
+    .left-arrow {
+      font-size: 55px;
+    }
+    .all-btn {
+        margin-top: 0;
+    }
+  }

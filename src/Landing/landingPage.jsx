@@ -20,6 +20,12 @@ import ib from "../asset/kurikulum/international_baccalaureate.png";
 import ipc from "../asset/kurikulum/ipc_.png";
 import spc from "../asset/kurikulum/singapore_curriculum.png";
 import cambridge from "../asset/kurikulum/cambridge.png";
+import Slide from "../Carousel/Carousel";
+import Accordion from "../Accordion/Accordion";
+import sd from "../asset/sekolah/sd.png";
+import smp from "../asset/sekolah/smp.png";
+import sma from "../asset/sekolah/sma.png";
+import osn from "../asset/sekolah/osn.png";
 
 const landingPage = () => {
   return (
@@ -596,6 +602,288 @@ const landingPage = () => {
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="layanan-edm">
+        <h1 className="title-layanan">Layanan Program Belajar Edumatrix</h1>
+      </div>
+
+      <Slide />
+
+      <div className="all-accordion">
+        <div className="box-sd">
+          <div className="parent-img-sd">
+            <img className="img-sd" src={sd} alt="" />
+          </div>
+          <div className="accordion-sd">
+            <h3 className="title-sd">
+              Berikut adalah berbagai macam bimbingan mata pelajaran yang kami
+              sediakan, untuk sang buah hati.{" "}
+            </h3>
+            <Accordion
+              title="Mata Pelajaran SD"
+              content="
+              1. Agama
+              <br/>
+              <br/>
+              2. Pendidikan Kewarganegaraan (PKN)
+              <br/>
+              <br/>
+              3. Bahasa Indonesia
+              <br/>
+              <br/>
+              4. Matematika
+              <br/>
+              <br/>
+              5. Ilmu Pengetahuan Alam
+              <br/>
+              <br/>
+              6. Ilmu Pengetahuan Sosial
+              <br/>
+              <br/>
+              7. Seni Budaya dan Prakarya
+              <br/>
+              <br/>
+              8. Pendidikan Jasmani, Olah Raga dan Kesehatan
+              <br/>
+              <br/>
+              9. Bahasa Jawa
+              <br/>
+              <br/>
+              10. Bahasa Inggris
+              "
+            />
+          </div>
+        </div>
+
+        {/* ------------------------------------------------ */}
+
+        <div className="box-smp">
+          <div className="parent-img-smp">
+            <img className="img-smp" src={smp} alt="" />
+          </div>
+          <div className="accordion-smp">
+            <h3 className="title-smp">
+              Berbagai kebutuhan les mapel SMP juga tersedia di Edumatrix
+            </h3>
+            <Accordion
+              title="Mata Pelajaran SMP"
+              content="
+              1. Pendidikan Agama dan Budi Pekerti
+              <br/>
+              <br/>
+              2. Pendidikan Pancasila dan Kewarganegaraan
+              <br/>
+              <br/>
+              3. Bahasa Indonesia
+              <br/>
+              <br/>
+              4. Matematika
+              <br/>
+              <br/>
+              5. Ilmu Pengetahuan Alam
+              <br/>
+              <br/>
+              6. Ilmu Pengetahuan Sosial
+              <br/>
+              <br/>
+              7. Bahasa Inggris
+              "
+            />
+          </div>
+        </div>
+
+        {/* ------------------------------------------------ */}
+
+        <div className="box-sma">
+          <div className="parent-img-sma">
+            <img className="img-sma" src={sma} alt="" />
+          </div>
+          <div className="accordion-sma">
+            <h3 className="title-sma">
+              Edumatrix menyediakan bimbingan belajar bagi Siswa yang
+              berkebutuhan untuk les mapel wajib, maupun mapel kejuruan
+            </h3>
+            <Accordion
+              title="Mata Pelajaran SMA"
+              content="
+              SMA (Mapel Wajib)
+              <hr/>
+              <br/>
+              1. PPKn
+              <br/>
+              <br/>
+              2. Pendidikan Agama
+              <br/>
+              <br/>
+              3. Bahasa Indonesia
+              <br/>
+              <br/>
+              4. Matematika
+              <br/>
+              <br/>
+              5. Bahasa Inggris
+              <br/>
+              <br/>
+              6. Seni dan Prakarya
+              <br/>
+              <br/>
+              7. Pendidikan Jasmani
+              <br/>
+              <br/>
+              8. Informatika
+              <hr/>
+              <br/>
+              SMA IPA
+              <hr/>
+              <br/>
+              1. Biologi
+              <br/>
+              <br/>
+              2. Fisika
+              <br/>
+              <br/>
+              3. Kimia
+              <hr/>
+              <br/>
+              SMA IPS
+              <hr/>
+              <br/>
+              1. Sosiologi
+              <br/>
+              <br/>
+              2. Sejarah
+              <br/>
+              <br/>
+              3. Geografi
+              <br/>
+              <br/>
+              2. Ekonomi
+              <br/>
+              <br/>
+              3. Antropologi
+              <br/>
+              <br/>
+              2. Akuntansi
+              <br/>
+              <br/>
+              3. Kewirausahaan
+              "
+            />
+          </div>
+        </div>
+      </div>
+
+      {/* ----------OSN---------- */}
+
+      <div className="conatiner-osn">
+        <div className="box-osn">
+          <img className="img-osn" src={osn} alt="" />
+          <h1 className="title-osn">Olimpiade Sains Nasional</h1>
+        </div>
+        <div className="container-isi-osn">
+          <div className="mt-osn">
+            <h3 className="h3-mt">
+              Master Teacher kami akan memberikan bimbingan belajar OSN untuk
+              tingkat:
+            </h3>
+          </div>
+          <div className="paragraf-mt">
+            <p className="p-mt">
+              <FontAwesomeIcon className="icon-bullet-mt" icon={faCircle} />{" "}
+              Olimpiade Sains Nasional Tingkat Kab./Kota (OSN-K)
+            </p>
+            <p className="p-mt">
+              <FontAwesomeIcon className="icon-bullet-mt" icon={faCircle} />{" "}
+              Olimpiade Sains Nasional Tingkat Provinsi (OSN-P)
+            </p>
+            <p className="p-mt">
+              <FontAwesomeIcon className="icon-bullet-mt" icon={faCircle} />{" "}
+              Olimpiade Sains Nasional Tingkat Nasional
+            </p>
+          </div>
+
+          {/* OSN SD */}
+          <div className="osn-sd">
+            <h3 className="title-osn-sd">OSN SD</h3>
+          </div>
+          <div className="paragraf-mt">
+            <p className="p-mt">
+              <FontAwesomeIcon className="icon-bullet-mt" icon={faCircle} />{" "}
+              Matematika
+            </p>
+            <p className="p-mt">
+              <FontAwesomeIcon className="icon-bullet-mt" icon={faCircle} /> IPA
+              (Ilmu Pengetahuan Alam)
+            </p>
+            <p className="p-mt">
+              <FontAwesomeIcon className="icon-bullet-mt" icon={faCircle} /> IPS
+              (Ilmu Pengetahuan Sosial)
+            </p>
+          </div>
+
+          {/* OSN SMP */}
+          <div className="osn-sd">
+            <h3 className="title-osn-sd">OSN SMP</h3>
+          </div>
+          <div className="paragraf-mt">
+            <p className="p-mt">
+              <FontAwesomeIcon className="icon-bullet-mt" icon={faCircle} />{" "}
+              Matematika
+            </p>
+            <p className="p-mt">
+              <FontAwesomeIcon className="icon-bullet-mt" icon={faCircle} /> IPA
+              (Ilmu Pengetahuan Alam)
+            </p>
+            <p className="p-mt">
+              <FontAwesomeIcon className="icon-bullet-mt" icon={faCircle} /> IPS
+              (Ilmu Pengetahuan Sosial)
+            </p>
+          </div>
+
+          {/* OSN SMA */}
+          <div className="osn-sd">
+            <h3 className="title-osn-sd">OSN SMA</h3>
+          </div>
+          <div className="paragraf-mt">
+            <p className="p-mt">
+              <FontAwesomeIcon className="icon-bullet-mt" icon={faCircle} />{" "}
+              Matematika
+            </p>
+            <p className="p-mt">
+              <FontAwesomeIcon className="icon-bullet-mt" icon={faCircle} /> IPA
+              Fisika
+            </p>
+            <p className="p-mt">
+              <FontAwesomeIcon className="icon-bullet-mt" icon={faCircle} /> IPS
+              Kimia
+            </p>
+            <p className="p-mt">
+              <FontAwesomeIcon className="icon-bullet-mt" icon={faCircle} />{" "}
+              Informatika/Komputer
+            </p>
+            <p className="p-mt">
+              <FontAwesomeIcon className="icon-bullet-mt" icon={faCircle} /> IPA
+              Biologi
+            </p>
+            <p className="p-mt">
+              <FontAwesomeIcon className="icon-bullet-mt" icon={faCircle} /> IPS
+              Astronomi
+            </p>
+            <p className="p-mt">
+              <FontAwesomeIcon className="icon-bullet-mt" icon={faCircle} />{" "}
+              Ekonomi
+            </p>
+            <p className="p-mt">
+              <FontAwesomeIcon className="icon-bullet-mt" icon={faCircle} /> IPA
+              Kebumian
+            </p>
+            <p className="p-mt">
+              <FontAwesomeIcon className="icon-bullet-mt" icon={faCircle} /> IPS
+              Geografi
+            </p>
           </div>
         </div>
       </div>
