@@ -71,6 +71,7 @@
     } */
     .accordion {
         width: 90%;
+        padding: 12px;
     }
     .accordion__section {
         width: 100%;

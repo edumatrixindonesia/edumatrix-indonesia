@@ -26,10 +26,22 @@ import sd from "../asset/sekolah/sd.png";
 import smp from "../asset/sekolah/smp.png";
 import sma from "../asset/sekolah/sma.png";
 import osn from "../asset/sekolah/osn.png";
+import Footer from "../Footer/Footer";
+import ptnTernama from "../asset/kualifikasi/lulusan_PTN.png";
+import berpengalamanMengajar from "../asset/kualifikasi/berpengalaman_mengajar.png";
+import requestMt from "../asset/kualifikasi/Rquest_master.png";
+import promo from "../asset/promo/promo.png";
+import top3 from "../asset/mt/top 3 title.png";
+import mtTop3 from "../asset/mt/top3.png";
 
 const landingPage = () => {
   return (
     <React.Fragment>
+      <div className="banner-promo">
+        <a href="https://api.whatsapp.com/send?phone=+6281215523902&text=Halo%20Kak Eka%2C%20Saya%20ingin%20mendaftar%20%20Bimbel%20di Edumatrix Indonesia%20 menggunakan PROMO 11.11 di bulan NovemberTerima%20kasih.">
+          <img className="img-promo" src={promo} alt="" />
+        </a>
+      </div>
       <div className="navbar">
         <img className="logo-edm" src={logo} alt="" />
       </div>
@@ -853,11 +865,11 @@ const landingPage = () => {
               Matematika
             </p>
             <p className="p-mt">
-              <FontAwesomeIcon className="icon-bullet-mt" icon={faCircle} /> IPA
+              <FontAwesomeIcon className="icon-bullet-mt" icon={faCircle} />
               Fisika
             </p>
             <p className="p-mt">
-              <FontAwesomeIcon className="icon-bullet-mt" icon={faCircle} /> IPS
+              <FontAwesomeIcon className="icon-bullet-mt" icon={faCircle} />
               Kimia
             </p>
             <p className="p-mt">
@@ -865,11 +877,11 @@ const landingPage = () => {
               Informatika/Komputer
             </p>
             <p className="p-mt">
-              <FontAwesomeIcon className="icon-bullet-mt" icon={faCircle} /> IPA
+              <FontAwesomeIcon className="icon-bullet-mt" icon={faCircle} />
               Biologi
             </p>
             <p className="p-mt">
-              <FontAwesomeIcon className="icon-bullet-mt" icon={faCircle} /> IPS
+              <FontAwesomeIcon className="icon-bullet-mt" icon={faCircle} />
               Astronomi
             </p>
             <p className="p-mt">
@@ -877,16 +889,125 @@ const landingPage = () => {
               Ekonomi
             </p>
             <p className="p-mt">
-              <FontAwesomeIcon className="icon-bullet-mt" icon={faCircle} /> IPA
+              <FontAwesomeIcon className="icon-bullet-mt" icon={faCircle} />
               Kebumian
             </p>
             <p className="p-mt">
-              <FontAwesomeIcon className="icon-bullet-mt" icon={faCircle} /> IPS
+              <FontAwesomeIcon className="icon-bullet-mt" icon={faCircle} />
               Geografi
             </p>
           </div>
         </div>
       </div>
+
+      <div className="container-kualifikasi">
+        {/* <div className="kualifikasi-mt">
+          <h1 className="h1-mt-edm">Kualifikasi Master Teacher di Edumatrix</h1>
+        </div> */}
+
+        <div className="animated-marque">
+          <marquee behavior="" direction="">
+            {/* <img
+              className="img-mt"
+              src="https://apps.edumatrix-indonesia.com/edumatrixapp/admin/assets/uploads/foto_pengajar/2df4c-img-20230418-wa0018.jpg"
+              alt=""
+            />
+            <img
+              className="img-mt"
+              src="https://apps.edumatrix-indonesia.com/edumatrixapp/admin/assets/uploads/foto_pengajar/15a84-whatsapp-image-2023-04-18-at-12.53.02-2-.jpeg"
+              alt=""
+            />
+            <img
+              className="img-mt"
+              src="https://apps.edumatrix-indonesia.com/edumatrixapp/admin/assets/uploads/foto_pengajar/e528d-hairul.png"
+              alt=""
+            /> */}
+          </marquee>
+        </div>
+      </div>
+
+      {/* KUALIFIKASI MT */}
+
+      <div className="main-kualifikasi-mt">
+        <div className="box-kualifikasi-mt">
+          <h1 className="title-kualifikasi-mt">Kualifikasi Master Teacher</h1>
+        </div>
+
+        <div className="container-kualifikasi-mt">
+          <div className="desk-kualifikasi-mt">
+            <p className="kualifikasi-mt">
+              Salah satu kunci dari kesuksesan belajar adalah bimbingan dari
+              guru yang tepat dan kompeten. Master Teacher kami memiliki semua
+              kualifikasi yang cocok untuk menjamin kesuksesan belajar Siswa.
+              Berikut adalah kelebihan dari <strong>Master Teacher</strong>{" "}
+              kami:
+            </p>
+          </div>
+        </div>
+
+        <div className="all-ptn-ternama">
+          <div className="box-lulusan-ptn-ternama">
+            <h1 className="title-ptn-ternama">Lulusan PTN Ternama</h1>
+          </div>
+
+          <div className="box-img-ptn-ternama">
+            <img className="img-ptn-ternama" src={ptnTernama} alt="" />
+          </div>
+
+          <div className="desk-ptn-ternama">
+            <p className="p-ptn-ternama">
+              Master Teacher kami adalah lulusan S1, S2 dari UI, UGM, Unpad,
+              Undip, Unair, dan Universitas ternama lainnya. Tentunya,
+              kompetensi mengajar mereka tidak perlu dipertanyakan lagi.{" "}
+            </p>
+          </div>
+        </div>
+
+        <div className="berpengalaman-mengajar">
+          <h1 className="title-berpengalaman-mengajar">
+            Berpengalaman Mengajar
+          </h1>
+        </div>
+
+        <div className="content-berpengalaman-mengajar">
+          <p className="p-berpengalaman-mengajar">
+            Dengan bertahun-tahun pengalaman mengajar, Master Teacher kami sudah
+            mengetahui macam-macam karakteristik Siswa, dan metode belajar mana
+            yang cocok diaplikasikan untuk Siswa tertentu.
+          </p>
+          <img
+            className="img-berpengalaman-mengajar"
+            src={berpengalamanMengajar}
+            alt=""
+          />
+        </div>
+
+        <div className="request-mt">
+          <h1 className="title-request-mt">
+            Request Master Teacher yang Sesuai dengan Kebutuhan
+          </h1>
+        </div>
+
+        <div className="content-request-mt">
+          <img className="img-request-mt" src={requestMt} alt="" />
+          <p className="p-request-mt">
+            Dengan bertahun-tahun pengalaman mengajar, Master Teacher kami sudah
+            mengetahui macam-macam karakteristik Siswa, dan metode belajar mana
+            yang cocok diaplikasikan untuk Siswa tertentu.
+          </p>
+        </div>
+      </div>
+
+      {/*  TOP 3 MT */}
+      {/* <div className="box-top-3">
+        <img className="img-top3" src={top3} alt="" />
+      </div>
+
+      <div className="box-mt-top3">
+        <img className="mt-top3" src={mtTop3} alt="" />
+      </div> */}
+
+      <Footer />
     </React.Fragment>
   );
 };
