@@ -33,6 +33,21 @@ import requestMt from "../asset/kualifikasi/Rquest_master.png";
 import promo from "../asset/promo/promo.png";
 import top3 from "../asset/mt/top 3 title.png";
 import mtTop3 from "../asset/mt/top3.png";
+import testi from "../asset/sekolah/APA_KATA_MEREKA.png";
+import triana from "../asset/testimoni/triana.jpeg";
+// MASTER TAEACHER
+import ai from "../asset/mt/Ai Fatmawati.png";
+import firda from "../asset/mt/Firda Febriana Azahra.png";
+import hairul from "../asset/mt/Hairul Umam.png";
+import ika from "../asset/mt/Ika Istiana.png";
+import ilman from "../asset/mt/Ilman Hajar.png";
+import mella from "../asset/mt/Mella Narolita.png";
+import arinal from "../asset/mt/Muhammad Arinal Haq.png";
+import novia from "../asset/mt/Novia Rahmawaty Putri.png";
+import paranti from "../asset/mt/Paranti.png";
+import vicho from "../asset/mt/Vicho Afrianto.png";
+import yona from "../asset/mt/Yona Tirta Sari.png";
+import Marquee from "../Marquee/Marquee";
 
 const landingPage = () => {
   return (
@@ -999,14 +1014,311 @@ const landingPage = () => {
       </div>
 
       {/*  TOP 3 MT */}
-      {/* <div className="box-top-3">
+      <div className="box-top-3">
         <img className="img-top3" src={top3} alt="" />
       </div>
 
       <div className="box-mt-top3">
-        <img className="mt-top3" src={mtTop3} alt="" />
-      </div> */}
+        <div className="child-3mt">
+          <img className="mt-top3" src={mtTop3} alt="" />
+        </div>
+        <div className="all-mt">
+          <Marquee />
+        </div>
+      </div>
 
+      {/* ASAL SEKOLAH SISWA  */}
+
+      <div className="parent-sekolah-siswa">
+        <h1 className="title-sekolah-siswa">
+          Siswa Edumatrix berasal dari berbagai sekolah dan Universitas di
+          seluruh Indonesia seperti :
+        </h1>
+      </div>
+
+      <div className="all-asal-sekolah">
+        {/* SMP */}
+        <div className="parent-sekolah-smp">
+          <button className="btn-smp">
+            <h1>SMP</h1>
+          </button>
+          <div className="box-sekolah-smp">
+            <div className="box-nama-asal-sekolah">
+              <p className="p-smp">
+                <FontAwesomeIcon className="icon-smp" icon={faCircle} /> SMPK
+                Harapan Bangsa Balikpapan
+              </p>
+              <p className="p-smp">
+                <FontAwesomeIcon className="icon-smp" icon={faCircle} /> SMP
+                Negeri 1 Balikpapan
+              </p>
+              <p className="p-smp">
+                <FontAwesomeIcon className="icon-smp" icon={faCircle} /> SMP
+                Muhammadiyah Plus Batam
+              </p>
+              <p className="p-smp">
+                <FontAwesomeIcon className="icon-smp" icon={faCircle} /> SMP
+                Cikal
+              </p>
+              <p className="p-smp">
+                <FontAwesomeIcon className="icon-smp" icon={faCircle} /> Tunas
+                Bangsa Christian School Gading Serpong
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* SMA */}
+        <div className="parent-sekolah-smp">
+          <button className="btn-smp">
+            <h1>SMA</h1>
+          </button>
+          <div className="box-sekolah-sma">
+            <div className="box-nama-asal-sekolah">
+              <p className="p-smp">
+                <FontAwesomeIcon className="icon-smp" icon={faCircle} /> SMKN 57
+                Jakarta
+              </p>
+              <p className="p-smp">
+                <FontAwesomeIcon className="icon-smp" icon={faCircle} /> SMA
+                ISLAM TERPADU AL-MUSTHAFAWIYAH
+              </p>
+              <p className="p-smp">
+                <FontAwesomeIcon className="icon-smp" icon={faCircle} /> SMKN
+                SUGIHWARAS BOJONEGORO
+              </p>
+              <p className="p-smp">
+                <FontAwesomeIcon className="icon-smp" icon={faCircle} /> SMAS
+                Unggulan Ar-Rahman
+              </p>
+              <p className="p-smp">
+                <FontAwesomeIcon className="icon-smp" icon={faCircle} /> SMAN 1
+                SURAKARTA
+              </p>
+              <p className="p-smp">
+                <FontAwesomeIcon className="icon-smp" icon={faCircle} /> Nurul
+                Fikri Boarding School Serang
+              </p>
+
+              <div className="dropdown-menu">
+                <input type="checkbox" id="menu" />
+                <label className="readmore" htmlFor="menu">
+                  Readmore
+                </label>
+                <div className="menu-content">
+                  <p className="p-smp">
+                    <FontAwesomeIcon className="icon-smp" icon={faCircle} />{" "}
+                    Presiden Boarding School
+                  </p>
+                  <p className="p-smp">
+                    <FontAwesomeIcon className="icon-smp" icon={faCircle} />{" "}
+                    SMAN 2 PANGKALAN KERINCI
+                  </p>
+                  <p className="p-smp">
+                    <FontAwesomeIcon className="icon-smp" icon={faCircle} />{" "}
+                    SABIS INTERNATIONAL SCHOOL
+                  </p>
+                  <p className="p-smp">
+                    <FontAwesomeIcon className="icon-smp" icon={faCircle} />{" "}
+                    Pondok Pesantren Modern Putri IMMIM Pangkep
+                  </p>
+                  <p className="p-smp">
+                    <FontAwesomeIcon className="icon-smp" icon={faCircle} /> SMA
+                    BUDI UTOMO
+                  </p>
+                  <p className="p-smp">
+                    <FontAwesomeIcon className="icon-smp" icon={faCircle} /> SMA
+                    Bukit Asam
+                  </p>
+                  <p className="p-smp">
+                    <FontAwesomeIcon className="icon-smp" icon={faCircle} /> St
+                    Fransiskus Assisi Samarinda
+                  </p>
+                  <p className="p-smp">
+                    <FontAwesomeIcon className="icon-smp" icon={faCircle} />{" "}
+                    PONPES ASSHIDDIQIYAH JAKART
+                  </p>
+                  <p className="p-smp">
+                    <FontAwesomeIcon className="icon-smp" icon={faCircle} />{" "}
+                    Harapan Bangsa
+                  </p>
+                  <p className="p-smp">
+                    <FontAwesomeIcon className="icon-smp" icon={faCircle} />{" "}
+                    Heritage School
+                  </p>
+                  <p className="p-smp">
+                    <FontAwesomeIcon className="icon-smp" icon={faCircle} />{" "}
+                    International islamic high school
+                  </p>
+                  <p className="p-smp">
+                    <FontAwesomeIcon className="icon-smp" icon={faCircle} /> MAS
+                    Sunan Pandanaran
+                  </p>
+                  <p className="p-smp">
+                    <FontAwesomeIcon className="icon-smp" icon={faCircle} /> SMI
+                    QHA IPA
+                  </p>
+                  <p className="p-smp">
+                    <FontAwesomeIcon className="icon-smp" icon={faCircle} />{" "}
+                    SMAS Unklab Airmadidi
+                  </p>
+                  <p className="p-smp">
+                    <FontAwesomeIcon className="icon-smp" icon={faCircle} /> SMA
+                    IT Al Bayyinah
+                  </p>
+                  <p className="p-smp">
+                    <FontAwesomeIcon className="icon-smp" icon={faCircle} />{" "}
+                    SMAN 3 Denpasar
+                  </p>
+                  <p className="p-smp">
+                    <FontAwesomeIcon className="icon-smp" icon={faCircle} /> SMA
+                    Madania Bogor
+                  </p>
+                  <p className="p-smp">
+                    <FontAwesomeIcon className="icon-smp" icon={faCircle} />{" "}
+                    SMAN 1 Kaliwungu
+                  </p>
+                  <p className="p-smp">
+                    <FontAwesomeIcon className="icon-smp" icon={faCircle} />{" "}
+                    SMAN 1 Semarapura
+                  </p>
+                  <p className="p-smp">
+                    <FontAwesomeIcon className="icon-smp" icon={faCircle} /> MBI
+                    Amanatul Ummah
+                  </p>
+                  <p className="p-smp">
+                    <FontAwesomeIcon className="icon-smp" icon={faCircle} />{" "}
+                    Temesek Independent School
+                  </p>
+                  <p className="p-smp">
+                    <FontAwesomeIcon className="icon-smp" icon={faCircle} />{" "}
+                    SMAN 1 Bogor
+                  </p>
+                  <p className="p-smp">
+                    <FontAwesomeIcon className="icon-smp" icon={faCircle} />{" "}
+                    Darunnajah
+                  </p>
+                  <p className="p-smp">
+                    <FontAwesomeIcon className="icon-smp" icon={faCircle} /> SMA
+                    Sutomo 1
+                  </p>
+                  <p className="p-smp">
+                    <FontAwesomeIcon className="icon-smp" icon={faCircle} /> SMK
+                    Pariwisata Adimulia Batam
+                  </p>
+                  <p className="p-smp">
+                    <FontAwesomeIcon className="icon-smp" icon={faCircle} /> MA
+                    Darul madinah
+                  </p>
+                  <p className="p-smp">
+                    <FontAwesomeIcon className="icon-smp" icon={faCircle} />{" "}
+                    SMAN 3 Makassar
+                  </p>
+                  <p className="p-smp">
+                    <FontAwesomeIcon className="icon-smp" icon={faCircle} /> SMK
+                    NEGERI 1 TANJUNGPINANG
+                  </p>
+                  <p className="p-smp">
+                    <FontAwesomeIcon className="icon-smp" icon={faCircle} /> MA
+                    ARRAHMANIYAH
+                  </p>
+                  <p className="p-smp">
+                    <FontAwesomeIcon className="icon-smp" icon={faCircle} />{" "}
+                    SMAN 5 Kota Bengkulu
+                  </p>
+                  <p className="p-smp">
+                    <FontAwesomeIcon className="icon-smp" icon={faCircle} /> SMA
+                    NEGERI 3 PURWOKERTO
+                  </p>
+                  <p className="p-smp">
+                    <FontAwesomeIcon className="icon-smp" icon={faCircle} /> MAN
+                    2 Kota Serang
+                  </p>
+                  <p className="p-smp">
+                    <FontAwesomeIcon className="icon-smp" icon={faCircle} /> PPS
+                    MINHAAJUSHSHOOBIRIIN
+                  </p>
+                  <p className="p-smp">
+                    <FontAwesomeIcon className="icon-smp" icon={faCircle} /> MAN
+                    Tanjungpinang
+                  </p>
+                  <p className="p-smp">
+                    <FontAwesomeIcon className="icon-smp" icon={faCircle} /> SMA
+                    Taman Rama
+                  </p>
+                  <p className="p-smp">
+                    <FontAwesomeIcon className="icon-smp" icon={faCircle} />{" "}
+                    Ibnu Hajar Boarding School
+                  </p>
+                  <p className="p-smp">
+                    <FontAwesomeIcon className="icon-smp" icon={faCircle} /> SMA
+                    3 Taruna Angkasa Madiun
+                  </p>
+                  <p className="p-smp">
+                    <FontAwesomeIcon className="icon-smp" icon={faCircle} />{" "}
+                    SMAK Setia Bakti Ruteng
+                  </p>
+                  <p className="p-smp">
+                    <FontAwesomeIcon className="icon-smp" icon={faCircle} />{" "}
+                    SMAN 01 Manokwari
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* UNIVERSITAS */}
+        <div className="parent-sekolah-smp">
+          <button className="btn-smp">
+            <h1>Universitas</h1>
+          </button>
+          <div className="box-sekolah-univ">
+            <div className="box-nama-asal-sekolah">
+              <p className="p-smp">
+                <FontAwesomeIcon className="icon-smp" icon={faCircle} /> UIN
+                Bandung
+              </p>
+              <p className="p-smp">
+                <FontAwesomeIcon className="icon-smp" icon={faCircle} />{" "}
+                Universitas Trisakti
+              </p>
+              <p className="p-smp">
+                <FontAwesomeIcon className="icon-smp" icon={faCircle} /> STIPRAM
+              </p>
+              <p className="p-smp">
+                <FontAwesomeIcon className="icon-smp" icon={faCircle} />{" "}
+                Universitas Diponegoro
+              </p>
+              <p className="p-smp">
+                <FontAwesomeIcon className="icon-smp" icon={faCircle} />{" "}
+                University of Groningen
+              </p>
+              <p className="p-smp">
+                <FontAwesomeIcon className="icon-smp" icon={faCircle} />{" "}
+                Universitas Hasanuddin
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        {/* <div className="parent-testimoni">
+          <img className="img-testi" src={testi} alt="" />
+        </div>
+
+        <div className="box-testimoni">
+        <div className="testi-triana">
+          <p className="desk-triana">
+            Edumatrix adalah pilihan bimbingan belajar yang baik. Belajar di
+            Edumatrix menyenangkan dan sistem yang mudah dipahami. Gak perlu
+            ragu buat belajar di Edumatrix, tentunya dengan tutor-tutor yang
+            sudah berpengalaman.
+          </p>
+          <h3>Triana</h3>
+          <img src={triana} alt="" />
+        </div>
+      </div> */}
       <Footer />
     </React.Fragment>
   );

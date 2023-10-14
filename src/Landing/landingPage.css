@@ -21,11 +21,12 @@ body {
   position: fixed;
   top: 0;
   z-index: 999;
+  height: auto;
 }
 .img-promo {
-  width: 55%;
+  width: 40%;
   margin-top: 3px;
-  margin-left: 30%;
+  margin-left: 35%;
 }
 .navbar {
   display: flex;
@@ -34,7 +35,7 @@ body {
   width: 100%;
   height: 50%;
   background-color: #0d387c;
-  margin-top: 100px;
+  margin-top: 70px;
 }
 .title-edm {
   font-size: 28px;
@@ -827,7 +828,7 @@ hr {
   margin-bottom: 15%;
 }
 .box-mt-top3 {
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
   margin-top: 50px;
@@ -836,8 +837,147 @@ hr {
 .mt-top3 {
   width: 60%;
   margin-top: -17%;
-  padding-bottom: 50%;
+  padding-bottom: 10%;
+  text-align: center;
 }
+.child-3mt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.all-mt {
+  padding-left: 2%;
+  margin-right: 2%;
+}
+
+/* ASAL SEKOLAH SISWA */
+.parent-sekolah-siswa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  text-align: center;
+  color: #0d387c;
+}
+.title-sekolah-siswa {
+  width: 45%;
+}
+/* SMP */
+.p-smp {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: black;
+  margin-top: 10px;
+}
+.icon-smp {
+  font-size: 8px;
+  margin-right: 20px;
+}
+.box-sekolah-smp {
+  background-color: #dbdbdb;
+  padding: 20px;
+  border-radius: 10px;
+  width: 20rem;
+  height: 408px;
+}
+.box-sekolah-sma {
+  background-color: #dbdbdb;
+  padding: 40px;
+  border-radius: 10px;
+  width: 20rem;
+  height: auto;
+}
+.box-sekolah-univ {
+  background-color: #dbdbdb;
+  padding: 40px;
+  border-radius: 10px;
+  width: 20rem;
+  height: 370px;
+}
+.all-asal-sekolah {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.btn-smp {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 70px;
+  background-color: #11c8ea;
+  border: 1px solid transparent;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 10px;
+  color: white;
+}
+
+/* SMA */
+/* READMORE */
+/* Menu styles */
+.dropdown-menu {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.readmore {
+  cursor: pointer;
+  color: #00b9da;
+}
+
+.menu-content {
+  max-height: 0;
+  overflow: hidden;
+}
+
+.dropdown-menu ul {
+  list-style-type: none;
+  /* padding: 0; */
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #0d387c;
+}
+
+input#menu {
+  display: none;
+}
+
+input:checked ~ .menu-content {
+  max-height: 100%;
+}
+
+/* TESTIMONI */
+.parent-testimoni {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-testi {
+  width: 50%;
+}
+.desk-triana {
+  font-family: "Poppins", sans-serif;
+  color: #0d387c;
+  width: 50%;
+}
+.box-testimoni {
+  /* display: grid;
+  justify-content: center;
+  align-items: center; */
+  background-color: #00b9da;
+}
+.testi-triana {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
 
 
 
@@ -1029,6 +1169,32 @@ hr {
     margin-left: 0;
     margin-top: 20px;
   }
+  .mt-top3 {
+    width: 70%;
+  }
+  .img-top3 {
+    width: 50%;
+  }
+  .all-asal-sekolah {
+    display: grid;
+    margin-top: 20px;
+  }
+  .btn-smp {
+    margin-top: 0;
+  }
+  .box-sekolah-smp, .box-sekolah-sma, .box-sekolah-univ {
+    width: 100%;
+    gap: 1px;
+    padding: 0;
+    padding-top: 10px;
+  }
+  .p-smp {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .title-sekolah-siswa {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 1114px) {
@@ -1208,6 +1374,37 @@ hr {
     margin-left: 0;
     margin-top: 20px;
   }
+  .mt-top3 {
+    width: 70%;
+    padding-bottom: 50px;
+  }
+  .img-top3 {
+    width: 50%;
+  }
+  .all-mt {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .all-asal-sekolah {
+    display: grid;
+    margin-top: 20px;
+  }
+  .btn-smp {
+    margin-top: 0;
+  }
+  .box-sekolah-smp, .box-sekolah-sma, .box-sekolah-univ {
+    width: 100%;
+    gap: 1px;
+    padding: 0;
+    padding-top: 10px;
+  }
+  .p-smp {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .title-sekolah-siswa {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 912px) {
@@ -1355,6 +1552,26 @@ hr {
     width: 100%;
     margin-left: 0;
     margin-top: 20px;
+  }
+  .all-asal-sekolah {
+    display: grid;
+    margin-top: 20px;
+  }
+  .btn-smp {
+    margin-top: 0;
+  }
+  .box-sekolah-smp, .box-sekolah-sma, .box-sekolah-univ {
+    width: 100%;
+    gap: 1px;
+    padding: 0;
+    padding-top: 10px;
+  }
+  .p-smp {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .title-sekolah-siswa {
+    width: 100%;
   }
 }
 
@@ -1693,6 +1910,26 @@ hr {
     width: 20%;
     margin-left: 20%;
   }
+  .all-asal-sekolah {
+    display: grid;
+    margin-top: 20px;
+  }
+  .btn-smp {
+    margin-top: 0;
+  }
+  .box-sekolah-smp, .box-sekolah-sma, .box-sekolah-univ {
+    width: 100%;
+    gap: 1px;
+    padding: 0;
+    padding-top: 10px;
+  }
+  .p-smp {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .title-sekolah-siswa {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 1280px) {
@@ -1970,7 +2207,7 @@ hr {
     font-size: 27px;
   }
   .img-ptn-ternama {
-    width: 80%;
+    width: 100%;
   }
   .desk-ptn-ternama {
     padding-left: 10%;
@@ -2159,6 +2396,13 @@ hr {
     font-size: 19px;
     width: 90%;
   }
+  .mt-top3 {
+    width: 90%;
+    padding-bottom: 50px;
+  }
+  .img-top3 {
+    width: 70%;
+  }
 }
 
 @media only screen and (max-width: 390px) {
@@ -2292,6 +2536,13 @@ hr {
     font-size: 23px;
     width: 90%;
   }
+  .mt-top3 {
+    width: 90%;
+    padding-bottom: 50px;
+  }
+  .img-top3 {
+    width: 70%;
+  }
 }
 
 @media only screen and (max-width: 393px) {
@@ -2424,6 +2675,13 @@ hr {
   .title-pengaplikasian {
     font-size: 23px;
     width: 90%;
+  }
+  .mt-top3 {
+    width: 90%;
+    padding-bottom: 50px;
+  }
+  .img-top3 {
+    width: 70%;
   }
 }
 
@@ -2560,6 +2818,13 @@ hr {
   }
   .img-ptn-ternama {
     width: 100%;
+  }
+  .mt-top3 {
+    width: 90%;
+    padding-bottom: 50px;
+  }
+  .img-top3 {
+    width: 70%;
   }
 }
 

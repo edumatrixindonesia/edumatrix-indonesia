@@ -141,7 +141,7 @@ const Footer = () => {
                 <FontAwesomeIcon className="icon-on-footer" icon={faPhone} />
                 <span className="no-hp">0812-1636-5729</span>{" "}
               </a> */}
-              <a
+              {/* <a
                 className="footer-call-to-action-button button"
                 href="edumatrix.id@gmail.com"
                 target="_self"
@@ -149,7 +149,7 @@ const Footer = () => {
                 {" "}
                 <FontAwesomeIcon className="icon-on-footer" icon={faEnvelope} />
                 <span className="email">edumatrix.id@gmail.com</span>{" "}
-              </a>
+              </a> */}
             </div>
           </div>
           <div className="footer-social-links">
