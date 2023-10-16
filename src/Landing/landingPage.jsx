@@ -32,13 +32,13 @@ import berpengalamanMengajar from "../asset/kualifikasi/berpengalaman_mengajar.p
 import requestMt from "../asset/kualifikasi/Rquest_master.png";
 import promo from "../asset/promo/promo_edit.png";
 import top3 from "../asset/mt/top 3 title.png";
-import mtTop3 from "../asset/mt/top3.png";
+import mtTop3 from "../asset/mt/top teacher.png";
 import testi from "../asset/testimoni/APA_KATA_MEREKA.png";
 // TESTIMONI
-import triana from "../asset/testimoni/triana.jpeg";
-import arya from "../asset/testimoni/arya.jpeg";
+import shinta from "../asset/testimoni/shinta.png";
+import yolanda from "../asset/testimoni/yolanda.png";
 import natasya from "../asset/testimoni/natasha.jpeg";
-import nisma from "../asset/testimoni/nisma.jpeg";
+import gabriela from "../asset/testimoni/gabriela.png";
 import azlia from "../asset/testimoni/azlia.jpeg";
 import novandi from "../asset/testimoni/novandi.jpeg";
 // MASTER TAEACHER
@@ -58,11 +58,11 @@ import Marquee from "../Marquee/Marquee";
 const landingPage = () => {
   return (
     <React.Fragment>
-      <a href="https://api.whatsapp.com/send?phone=+6281215523902&text=Halo%20Kak Eka%2C%20Saya%20ingin%20mendaftar%20%20Bimbel%20di Edumatrix Indonesia%20 menggunakan PROMO 11.11 di bulan NovemberTerima%20kasih.">
+      <a href="https://api.whatsapp.com/send?phone=+6281215523902&text=Halo%20Kak Eka%2C%20Saya%20ingin%20mendaftar%20%20Bimbel%20di Edumatrix Indonesia%20 menggunakan PROMO 11.11 di bulan November%20Terima%20kasih.">
         <div className="banner-promo">
           <img className="img-promo" src={promo} alt="" />
           <button className="btn-promo">
-            <a href="https://api.whatsapp.com/send?phone=+6281215523902&text=Halo%20Kak Eka%2C%20Saya%20ingin%20mendaftar%20%20Bimbel%20di Edumatrix Indonesia%20 menggunakan PROMO 11.11 di bulan NovemberTerima%20kasih."></a>
+            <a href="https://api.whatsapp.com/send?phone=+6281215523902&text=Halo%20Kak Eka%2C%20Saya%20ingin%20mendaftar%20%20Bimbel%20di Edumatrix Indonesia%20 menggunakan PROMO 11.11 di bulan November%20Terima%20kasih."></a>
           </button>
         </div>
       </a>
@@ -101,7 +101,7 @@ const landingPage = () => {
                 <span className="animate-number">
                   <Number n={7312} /> +
                 </span>{" "}
-                <br /> <span className="span-desk">Siswa Belajar</span>
+              <span className="span-desk">Siswa Belajar</span>
               </p>
             </div>
           </div>
@@ -115,7 +115,7 @@ const landingPage = () => {
                 <span className="animate-number">
                   <Number n={2613} /> +
                 </span>
-                <br /> <span className="span-desk">Master Teacher</span>
+              <span className="span-desk">Master Teacher</span>
               </p>
             </div>
           </div>
@@ -129,7 +129,7 @@ const landingPage = () => {
                 <span className="animate-number">
                   <Number n={90} /> %
                 </span>{" "}
-                <br /> <span className="span-desk">Siswa Berhasil</span>
+              <span className="span-desk">Siswa Berhasil</span>
               </p>
             </div>
           </div>
@@ -143,7 +143,7 @@ const landingPage = () => {
                 <span className="animate-number">
                   <Number n={9} /> /10
                 </span>{" "}
-                <br /> <span className="span-desk">Tingkat Kepuasan Siswa</span>
+            <span className="span-desk">Tingkat Kepuasan Siswa</span>
               </p>
             </div>
           </div>
@@ -1041,7 +1041,7 @@ const landingPage = () => {
       <div className="parent-sekolah-siswa">
         <h1 className="title-sekolah-siswa">
           Siswa Edumatrix berasal dari berbagai sekolah dan Universitas di
-          seluruh Indonesia seperti :
+          seluruh Indonesia
         </h1>
       </div>
 
@@ -1317,24 +1317,25 @@ const landingPage = () => {
       </div>
 
       <div className="container-testi-siswa">
-        <div className="box-triana">
-          <p className="p-triana">
-            Edumatrix adalah pilihan bimbingan belajar yang baik. Belajar di
-            Edumatrix menyenangkan dan sistem yang mudah dipahami. Gak perlu
-            ragu buat belajar di Edumatrix, tentunya dengan tutor-tutor yang
-            sudah berpengalaman.
+        <div className="box-shinta">
+          <p className="p-shinta">
+            les disini seruu, kakak adminnya cepat tanggap kalau di chat jadi
+            mudah untuk komunikasinya kalau ada kendala. penjelasan dan
+            pembahasan dari guru yang mengajar juga mudah dipahami dan gurunya
+            sangat sabar mengajari saya dari awal karna saya masih belum terlalu
+            mengerti dengan materinya :( terbaik pokoknya!!!
           </p>
-          <h1 className="nama-triana">Triana</h1>
-          <img className="img-triana" src={triana} alt="" />
+          <h1 className="nama-shinta">Shinta</h1>
+          <img className="img-shinta" src={shinta} alt="" />
         </div>
         {/* ---------------------------------------------------------- */}
-        <div className="box-arya">
-          <p className="p-arya">
-            Rumah berproses yang konstruktif, aman dan nyaman. Terima kasih
-            banyak dan makin jaya, Edumatrix Indonesia!
+        <div className="box-yolanda">
+          <p className="p-yolanda">
+            Hari pertama memiliki kesan yang baik karena di ajar oleh Master
+            Teacher yang friendly dan memberi penjelasan yang dapat di pahami
           </p>
-          <h1 className="nama-arya">Arya Saputra Ramadani</h1>
-          <img className="img-arya" src={arya} alt="" />
+          <h1 className="nama-yolanda">Yolanda Febriana Sinaga</h1>
+          <img className="img-yolanda" src={yolanda} alt="" />
         </div>
         {/* ---------------------------------------------------------- */}
         <div className="box-natasya">
@@ -1346,10 +1347,20 @@ const landingPage = () => {
           <img className="img-natasya" src={natasya} alt="" />
         </div>
         {/* ---------------------------------------------------------- */}
-        <div className="box-nisma">
-          <p className="p-nisma">Bimbel yg mudah dipelajari dan terpercaya</p>
-          <h1 className="nama-nisma">Nisma Apriliani</h1>
-          <img className="img-nisma" src={nisma} alt="" />
+        <div className="box-gabriela">
+          <p className="p-gabriela">
+            Sudah 5 kali pertemuan ,gurunya asik dan tidak membosankan,langsung
+            bahas contoh soal UTBK Pas dikerjakan sendiri susah sekali,tapi
+            semenjak ikut bimbel Edumatrix ternyata ngerjain contoh soal UTBK
+            jadi mudah,paling suka kalau lagi bahas penalaran matematika........
+            Menurut saya sangat bagus,dikasih contoh soal,dibahas sama
+            gurunya,ditambah pembahasan dalam bentuk pdf juga.adminnya juga baik
+            dan fast respond dijelaskan semua tentang Edumatrix walaupun awalnya
+            hanya tanya-tanya harga Semoga bisa ikut bimbel ini sampai menjelang
+            SNBT nanti
+          </p>
+          <h1 className="nama-gabriela">Gabriela Mahendriati Daman</h1>
+          <img className="img-gabriela" src={gabriela} alt="" />
         </div>
         {/* ---------------------------------------------------------- */}
         <div className="box-azlia">

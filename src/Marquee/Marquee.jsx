@@ -53,7 +53,7 @@ const Marquee = () => {
               </p>
               <p>
                 <FontAwesomeIcon className="icon-mt" icon={faUniversity} />{" "}
-                UNIVERSITAS PENDIDIKAN INDONESIA
+                INSTITUT TEKNOLOGI BANDUNG
               </p>
             </div>
             <div className="box-ika">
@@ -101,6 +101,10 @@ const Marquee = () => {
                 <FontAwesomeIcon className="icon-mt" icon={faUniversity} />{" "}
                 UNIVERSITAS GAJAH MADA
               </p>
+              <p>
+                <FontAwesomeIcon className="icon-mt" icon={faUniversity} />{" "}
+                UNIVERSITY OF MANCHESTER
+              </p>
             </div>
             <div className="box-novia">
               <img className="img-all-mt" src={novia} alt="" />
@@ -136,7 +140,7 @@ const Marquee = () => {
               </p>
               <p>
                 <FontAwesomeIcon className="icon-mt" icon={faUniversity} />{" "}
-                INSITUT PERTANIAN BOGOR
+                INSTITUT PERTANIAN BOGOR
               </p>
             </div>
             <div className="box-yona">
