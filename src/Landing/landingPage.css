@@ -24,9 +24,33 @@ body {
   height: auto;
 }
 .img-promo {
-  width: 40%;
-  margin-top: 3px;
-  margin-left: 35%;
+  width: 30%;
+}
+.btn-promo {
+  border: 1px solid transparent;
+  background-color: #ffaf28;
+  color: white;
+  padding: 20px;
+  border-radius: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  content: "klaim sekarang";
+  cursor: pointer;
+}
+.btn-promo:before {
+  border: 1px solid transparent;
+  background-color: #ffaf28;
+  color: white;
+  padding: 20px;
+  border-radius: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  content: "klaim sekarang";
+  cursor: pointer;
 }
 .navbar {
   display: flex;
@@ -35,7 +59,7 @@ body {
   width: 100%;
   height: 50%;
   background-color: #0d387c;
-  margin-top: 70px;
+  margin-top: 80px;
 }
 .title-edm {
   font-size: 28px;
@@ -808,7 +832,7 @@ hr {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   margin-left: 20%;
-  text-align: justify
+  text-align: justify;
 }
 .img-request-mt {
   width: 50%;
@@ -953,34 +977,214 @@ input:checked ~ .menu-content {
 }
 
 /* TESTIMONI */
-.parent-testimoni {
+.title-testi {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 130px;
 }
 .img-testi {
   width: 50%;
 }
-.desk-triana {
+/* TRIANA */
+.p-triana {
+  text-align: center;
   font-family: "Poppins", sans-serif;
   color: #0d387c;
+}
+.nama-triana {
+  font-family: "Poppins", sans-serif;
+  color: #0d387c;
+  font-size: 25px;
+  margin-top: 30px;
+}
+.container-testi-siswa {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* padding-left: 20%;
+  padding-right: 20%; */
+  gap: 20px;
+  margin-top: 50px;
+}
+.box-triana {
+  text-align: center;
+  /* padding-left: 10%;
+  padding-right: 10%; */
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* margin-bottom: 10%; */
+  width: 40%;
+  border-radius: 10px;
+  padding: 15px;
+}
+.img-triana {
+  width: 15%;
+  border-radius: 50%;
+}
+/* ARYA */
+.p-arya {
+  font-family: "Poppins", sans-serif;
+  color: #0d387c;
+}
+.nama-arya {
+  font-family: "Poppins", sans-serif;
+  color: #0d387c;
+  font-size: 25px;
+  margin-top: 30px;
+}
+.box-arya {
+  text-align: center;
+  /* padding-left: 10%;
+  padding-right: 10%; */
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* margin-bottom: 10%; */
+  width: 40%;
+  border-radius: 10px;
+  padding: 15px;
+}
+.img-arya {
+  width: 15%;
+  border-radius: 50%;
+}
+/* NATASHA */
+.p-natasya {
+  font-family: "Poppins", sans-serif;
+  color: #0d387c;
+}
+.nama-natasya {
+  font-family: "Poppins", sans-serif;
+  color: #0d387c;
+  font-size: 25px;
+  margin-top: 30px;
+}
+.box-natasya {
+  text-align: center;
+  /* padding-left: 10%;
+  padding-right: 10%; */
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* margin-bottom: 10%; */
+  width: 40%;
+  border-radius: 10px;
+  padding: 15px;
+}
+.img-natasya {
+  width: 15%;
+  border-radius: 50%;
+}
+/* NISMA */
+.p-nisma {
+  font-family: "Poppins", sans-serif;
+  color: #0d387c;
+}
+.nama-nisma {
+  font-family: "Poppins", sans-serif;
+  color: #0d387c;
+  font-size: 25px;
+  margin-top: 30px;
+}
+.box-nisma {
+  text-align: center;
+  /* padding-left: 10%;
+  padding-right: 10%; */
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* margin-bottom: 10%; */
+  width: 40%;
+  border-radius: 10px;
+  padding: 15px;
+}
+.img-nisma {
+  width: 15%;
+  border-radius: 50%;
+}
+/* AZLIA */
+.p-azlia {
+  font-family: "Poppins", sans-serif;
+  color: #0d387c;
+}
+.nama-azlia {
+  font-family: "Poppins", sans-serif;
+  color: #0d387c;
+  font-size: 25px;
+  margin-top: 30px;
+}
+.box-azlia {
+  text-align: center;
+  /* padding-left: 10%;
+  padding-right: 10%; */
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* margin-bottom: 10%; */
+  width: 40%;
+  border-radius: 10px;
+  padding: 15px;
+}
+.img-azlia {
+  width: 15%;
+  border-radius: 50%;
+}
+/* NOVANDI */
+.p-novandi {
+  font-family: "Poppins", sans-serif;
+  color: #0d387c;
+}
+.nama-novandi {
+  font-family: "Poppins", sans-serif;
+  color: #0d387c;
+  font-size: 25px;
+  margin-top: 30px;
+}
+.box-novandi {
+  text-align: center;
+  /* padding-left: 10%;
+  padding-right: 10%; */
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* margin-bottom: 10%; */
+  width: 40%;
+  border-radius: 10px;
+  padding: 15px;
+}
+.img-novandi {
+  width: 15%;
+  border-radius: 50%;
+}
+
+/* CHILD FOOTER  */
+.child-footer {
+  background-color: #00b9da;
+  padding-left: 18%;
+  padding-right: 18%;
+  margin-top: 100px;
+  padding-top: 20px;
+}
+.title-child-footer {
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+.p-child-footer {
+  font-family: "Poppins", sans-serif;
+  color: white;
   width: 50%;
 }
-.box-testimoni {
-  /* display: grid;
-  justify-content: center;
-  align-items: center; */
-  background-color: #00b9da;
+.btn-child-footer {
+  background-color: #0d387c;
+  color: white;
+  border: 1px solid transparent;
+  padding: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+  border-radius: 50px;
+  width: 40%;
+  margin-bottom: 10px;
+  font-size: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
 }
-.testi-triana {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-}
-
-
-
-
 
 /* REASPONSIVE */
 /* IPDAD */
@@ -1001,8 +1205,8 @@ input:checked ~ .menu-content {
     margin-top: -13%;
   }
   .logo-edm {
-    width: 30%;
-    margin-left: 50px;
+    width: 30% !important;
+    margin-left: 50px !important;
   }
   .title-welcome {
     font-size: 30px;
@@ -1162,12 +1366,16 @@ input:checked ~ .menu-content {
     margin-top: 60px;
   }
   .banner-promo {
-    height: 50px;
+    height: auto;
   }
   .img-promo {
     width: 100%;
     margin-left: 0;
     margin-top: 20px;
+  }
+  .btn-promo,
+  .btn-promo:before {
+    display: none;
   }
   .mt-top3 {
     width: 70%;
@@ -1182,7 +1390,9 @@ input:checked ~ .menu-content {
   .btn-smp {
     margin-top: 0;
   }
-  .box-sekolah-smp, .box-sekolah-sma, .box-sekolah-univ {
+  .box-sekolah-smp,
+  .box-sekolah-sma,
+  .box-sekolah-univ {
     width: 100%;
     gap: 1px;
     padding: 0;
@@ -1193,6 +1403,12 @@ input:checked ~ .menu-content {
     margin-right: 10px;
   }
   .title-sekolah-siswa {
+    width: 100%;
+  }
+  .img-testi {
+    width: 70%;
+  }
+  .p-child-footer {
     width: 100%;
   }
 }
@@ -1248,7 +1464,7 @@ input:checked ~ .menu-content {
     margin-top: 20px;
   }
   .logo-edm {
-    width: 30%;
+    width: 50%;
     margin-left: 50px;
   }
   .p-pengajar {
@@ -1374,6 +1590,10 @@ input:checked ~ .menu-content {
     margin-left: 0;
     margin-top: 20px;
   }
+  .btn-promo,
+  .btn-promo:before {
+    display: none;
+  }
   .mt-top3 {
     width: 70%;
     padding-bottom: 50px;
@@ -1392,7 +1612,9 @@ input:checked ~ .menu-content {
   .btn-smp {
     margin-top: 0;
   }
-  .box-sekolah-smp, .box-sekolah-sma, .box-sekolah-univ {
+  .box-sekolah-smp,
+  .box-sekolah-sma,
+  .box-sekolah-univ {
     width: 100%;
     gap: 1px;
     padding: 0;
@@ -1403,6 +1625,21 @@ input:checked ~ .menu-content {
     margin-right: 10px;
   }
   .title-sekolah-siswa {
+    width: 100%;
+  }
+  .img-triana,
+  .img-arya,
+  .img-natasya,
+  .img-nisma,
+  .img-azlia,
+  .img-novandi {
+    width: 30%;
+    margin-bottom: 10px;
+  }
+  .img-testi {
+    width: 70%;
+  }
+  .p-child-footer {
     width: 100%;
   }
 }
@@ -1553,6 +1790,10 @@ input:checked ~ .menu-content {
     margin-left: 0;
     margin-top: 20px;
   }
+  .btn-promo,
+  .btn-promo:before {
+    display: none;
+  }
   .all-asal-sekolah {
     display: grid;
     margin-top: 20px;
@@ -1560,7 +1801,9 @@ input:checked ~ .menu-content {
   .btn-smp {
     margin-top: 0;
   }
-  .box-sekolah-smp, .box-sekolah-sma, .box-sekolah-univ {
+  .box-sekolah-smp,
+  .box-sekolah-sma,
+  .box-sekolah-univ {
     width: 100%;
     gap: 1px;
     padding: 0;
@@ -1572,6 +1815,25 @@ input:checked ~ .menu-content {
   }
   .title-sekolah-siswa {
     width: 100%;
+  }
+  .img-triana,
+  .img-arya,
+  .img-natasya,
+  .img-nisma,
+  .img-azlia,
+  .img-novandi {
+    width: 30%;
+    margin-bottom: 10px;
+  }
+  .img-testi {
+    width: 70%;
+  }
+  .p-child-footer {
+    width: 100%;
+  }
+  .child-footer {
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }
 
@@ -1917,7 +2179,9 @@ input:checked ~ .menu-content {
   .btn-smp {
     margin-top: 0;
   }
-  .box-sekolah-smp, .box-sekolah-sma, .box-sekolah-univ {
+  .box-sekolah-smp,
+  .box-sekolah-sma,
+  .box-sekolah-univ {
     width: 100%;
     gap: 1px;
     padding: 0;
@@ -1929,6 +2193,18 @@ input:checked ~ .menu-content {
   }
   .title-sekolah-siswa {
     width: 100%;
+  }
+  .banner-promo {
+    height: auto;
+  }
+  .img-promo {
+    width: 65%;
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 10%;
+  }
+  .btn-promo {
+    display: none;
   }
 }
 
@@ -2025,6 +2301,18 @@ input:checked ~ .menu-content {
   }
   .img-request-mt {
     width: 100%;
+  }
+  .banner-promo {
+    height: auto;
+  }
+  .img-promo {
+    width: 45%;
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 10%;
+  }
+  .btn-promo {
+    display: none;
   }
 }
 
@@ -2254,14 +2542,79 @@ input:checked ~ .menu-content {
     width: 100%;
   }
   .navbar {
-    margin-top: 40px;
+    margin-top: 50px;
   }
   .banner-promo {
-    height: 50px;
+    height: auto;
   }
   .img-promo {
-    width: 120%;
+    width: 100%;
     margin-left: 0;
+    margin-top: 0;
+    margin-right: 10%;
+  }
+  .btn-promo {
+    display: none;
+  }
+  .btn-promo:before {
+    display: none;
+  }
+  .title-sekolah-siswa {
+    font-size: 22px;
+  }
+  .all-asal-sekolah {
+    padding: 20px;
+  }
+  .mt-top3 {
+    width: 90%;
+  }
+  .container-testi-siswa {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  .box-triana,
+  .box-arya,
+  .box-natasya,
+  .box-nisma,
+  .box-azlia,
+  .box-novandi {
+    width: 100%;
+    padding: 0;
+  }
+  .p-triana,
+  .p-arya,
+  .p-natasya,
+  .p-nisma,
+  .p-azlia,
+  .p-novandi {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+  .img-triana,
+  .img-arya,
+  .img-natasya,
+  .img-nisma,
+  .img-azlia,
+  .img-novandi {
+    width: 30%;
+    margin-bottom: 10px;
+  }
+  .img-testi {
+    width: 95%;
+  }
+  .p-child-footer {
+    width: 100%;
+  }
+  .child-footer {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .btn-child-footer {
+    width: 100%;
   }
 }
 
@@ -2847,6 +3200,21 @@ input:checked ~ .menu-content {
   }
   .title-welcome {
     font-size: 20px;
+  }
+  .banner-promo {
+    height: auto;
+  }
+  .img-promo {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 10%;
+  }
+  .btn-promo {
+    display: none;
+  }
+  .navbar {
+    margin-top: 30px;
   }
 }
 

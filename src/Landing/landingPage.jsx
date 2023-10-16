@@ -30,11 +30,17 @@ import Footer from "../Footer/Footer";
 import ptnTernama from "../asset/kualifikasi/lulusan_PTN.png";
 import berpengalamanMengajar from "../asset/kualifikasi/berpengalaman_mengajar.png";
 import requestMt from "../asset/kualifikasi/Rquest_master.png";
-import promo from "../asset/promo/promo.png";
+import promo from "../asset/promo/promo_edit.png";
 import top3 from "../asset/mt/top 3 title.png";
 import mtTop3 from "../asset/mt/top3.png";
-import testi from "../asset/sekolah/APA_KATA_MEREKA.png";
+import testi from "../asset/testimoni/APA_KATA_MEREKA.png";
+// TESTIMONI
 import triana from "../asset/testimoni/triana.jpeg";
+import arya from "../asset/testimoni/arya.jpeg";
+import natasya from "../asset/testimoni/natasha.jpeg";
+import nisma from "../asset/testimoni/nisma.jpeg";
+import azlia from "../asset/testimoni/azlia.jpeg";
+import novandi from "../asset/testimoni/novandi.jpeg";
 // MASTER TAEACHER
 import ai from "../asset/mt/Ai Fatmawati.png";
 import firda from "../asset/mt/Firda Febriana Azahra.png";
@@ -52,11 +58,14 @@ import Marquee from "../Marquee/Marquee";
 const landingPage = () => {
   return (
     <React.Fragment>
-      <div className="banner-promo">
-        <a href="https://api.whatsapp.com/send?phone=+6281215523902&text=Halo%20Kak Eka%2C%20Saya%20ingin%20mendaftar%20%20Bimbel%20di Edumatrix Indonesia%20 menggunakan PROMO 11.11 di bulan NovemberTerima%20kasih.">
+      <a href="https://api.whatsapp.com/send?phone=+6281215523902&text=Halo%20Kak Eka%2C%20Saya%20ingin%20mendaftar%20%20Bimbel%20di Edumatrix Indonesia%20 menggunakan PROMO 11.11 di bulan NovemberTerima%20kasih.">
+        <div className="banner-promo">
           <img className="img-promo" src={promo} alt="" />
-        </a>
-      </div>
+          <button className="btn-promo">
+            <a href="https://api.whatsapp.com/send?phone=+6281215523902&text=Halo%20Kak Eka%2C%20Saya%20ingin%20mendaftar%20%20Bimbel%20di Edumatrix Indonesia%20 menggunakan PROMO 11.11 di bulan NovemberTerima%20kasih."></a>
+          </button>
+        </div>
+      </a>
       <div className="navbar">
         <img className="logo-edm" src={logo} alt="" />
       </div>
@@ -1303,22 +1312,78 @@ const landingPage = () => {
         </div>
       </div>
 
-        {/* <div className="parent-testimoni">
-          <img className="img-testi" src={testi} alt="" />
-        </div>
+      <div className="title-testi">
+        <img className="img-testi" src={testi} alt="" />
+      </div>
 
-        <div className="box-testimoni">
-        <div className="testi-triana">
-          <p className="desk-triana">
+      <div className="container-testi-siswa">
+        <div className="box-triana">
+          <p className="p-triana">
             Edumatrix adalah pilihan bimbingan belajar yang baik. Belajar di
             Edumatrix menyenangkan dan sistem yang mudah dipahami. Gak perlu
             ragu buat belajar di Edumatrix, tentunya dengan tutor-tutor yang
             sudah berpengalaman.
           </p>
-          <h3>Triana</h3>
-          <img src={triana} alt="" />
+          <h1 className="nama-triana">Triana</h1>
+          <img className="img-triana" src={triana} alt="" />
         </div>
-      </div> */}
+        {/* ---------------------------------------------------------- */}
+        <div className="box-arya">
+          <p className="p-arya">
+            Rumah berproses yang konstruktif, aman dan nyaman. Terima kasih
+            banyak dan makin jaya, Edumatrix Indonesia!
+          </p>
+          <h1 className="nama-arya">Arya Saputra Ramadani</h1>
+          <img className="img-arya" src={arya} alt="" />
+        </div>
+        {/* ---------------------------------------------------------- */}
+        <div className="box-natasya">
+          <p className="p-natasya">
+            Rumah berproses yang konstruktif, aman dan nyaman. Terima kasih
+            banyak dan makin jaya, Edumatrix Indonesia!
+          </p>
+          <h1 className="nama-natasya">Natasha Rizky</h1>
+          <img className="img-natasya" src={natasya} alt="" />
+        </div>
+        {/* ---------------------------------------------------------- */}
+        <div className="box-nisma">
+          <p className="p-nisma">Bimbel yg mudah dipelajari dan terpercaya</p>
+          <h1 className="nama-nisma">Nisma Apriliani</h1>
+          <img className="img-nisma" src={nisma} alt="" />
+        </div>
+        {/* ---------------------------------------------------------- */}
+        <div className="box-azlia">
+          <p className="p-azlia">
+            master teacher nya seru-seru bangett, banyak trik yang awalnya nggak
+            kepikiran jadi oh iya yaa, pembelajarannya menarik nggak ngebosenin
+          </p>
+          <h1 className="nama-azlia">Azlia Kamila A</h1>
+          <img className="img-azlia" src={azlia} alt="" />
+        </div>
+        {/* ---------------------------------------------------------- */}
+        <div className="box-novandi">
+          <p className="p-novandi">
+            Response Admin cepat, antusias dan Ramah,, selalu standby.... it's
+            cool
+          </p>
+          <h1 className="nama-novandi">Muhammad Novandi</h1>
+          <img className="img-novandi" src={novandi} alt="" />
+        </div>
+      </div>
+
+      <div className="child-footer">
+        <h3 className="title-child-footer">
+          Kini Saatnya Kamu Bergabung di Edumatrix Indonesia
+        </h3>
+        <p className="p-child-footer">
+          Ribuan siswa telah mendapatkan pendampingan belajar terbaik. Saat ini
+          adalah waktu terbaik untuk konsultasikan kebutuhan Anda, segera
+          hubungi:
+        </p>
+        <a href="https://api.whatsapp.com/send?phone=+6281215523902&text=Halo%20Kak%20Eka%2C%20Saya%20ingin%20bertanya%20mengenai%20Bimbel%20di%20Edumatrix%20Indonesia%20Terima%20kasih.">
+          <button className="btn-child-footer">HUBUNGI KAMI</button>{" "}
+        </a>
+      </div>
       <Footer />
     </React.Fragment>
   );

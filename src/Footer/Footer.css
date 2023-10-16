@@ -10,6 +10,25 @@
     font-family: "Poppins", sans-serif;
   }
   
+  .btn-email {
+    border: 1px solid transparent;
+    background-color: #00bef0;
+    color: white;
+    padding: 15px;
+    border-radius: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+  .footer-sosmed {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
   
   .footer {
       background-color: #0d387c;
@@ -24,7 +43,7 @@
       width: 100%;
   }
   .footer-wave-path {
-      fill: #ffffff;
+      fill: #00b9da;
   }
   
   .footer-content {
@@ -275,6 +294,7 @@
       max-width: 1230px;
       padding: 40px 15px 1050px;
       position: relative;
+      height: 20vh;
     }
   }
   @media (min-width:480px) and (max-width:599px)  { /* smartphones, Android phones, landscape iPhone */
@@ -334,5 +354,12 @@
     /* .footer-content-column {
         width: 49.99%;
     } */
+  }
+
+
+  @media only screen and (max-width: 414px) {
+    .footer-content-column {
+
+    }
   }
   

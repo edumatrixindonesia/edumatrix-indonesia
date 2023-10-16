@@ -48,7 +48,10 @@ const Footer = () => {
                 </li>
                 <hr />
                 <li className="menu-item menu-item-type-post_type menu-item-object-product">
-                  <a className="bimbel-diy" href="#">Menyediakan les privat online untuk seluruh Indonesia dan offline untuk area Daerah Istimewa Yogyakarta (DIY).</a>
+                  <a className="bimbel-diy" href="#">
+                    Menyediakan les privat online untuk seluruh Indonesia dan
+                    offline untuk area Daerah Istimewa Yogyakarta (DIY).
+                  </a>
                 </li>
               </ul>
             </div>
@@ -131,28 +134,53 @@ const Footer = () => {
           </div>
           <div className="footer-content-column">
             <div className="footer-call-to-action">
-              <h2 className="footer-call-to-action-title"></h2>
-              {/* <a
-                className="footer-call-to-action-button button"
-                href="tel:085600422188"
-                target="_self"
-              >
-                {" "}
-                <FontAwesomeIcon className="icon-on-footer" icon={faPhone} />
-                <span className="no-hp">0812-1636-5729</span>{" "}
-              </a> */}
-              {/* <a
-                className="footer-call-to-action-button button"
-                href="edumatrix.id@gmail.com"
-                target="_self"
-              >
-                {" "}
-                <FontAwesomeIcon className="icon-on-footer" icon={faEnvelope} />
-                <span className="email">edumatrix.id@gmail.com</span>{" "}
-              </a> */}
+              <h2 className="footer-call-to-action-title">HUBUNGI KAMI :</h2>
+              <a href="mailto:edumatrix.id@gmail.com">
+                <button className="btn-email">
+                  <FontAwesomeIcon icon={faEnvelope} /> edumatrix.id@gmail.com
+                </button>
+              </a>
+            </div>
+
+            <div className="footer-call-to-action">
+              <h2 className="footer-call-to-action-title">IKUTI KAMI :</h2>
+              <div className="footer-sosmed">
+                <div className="sosmed-ig">
+                  <a href="https://www.instagram.com/edumatrixindonesia/">
+                    <img
+                      src="https://cdn-web-2.ruangguru.com/landing-pages/assets/hs/1%20Homepage%20RG/Optimize%20V2/ic-ig.svg?convert=webp"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div className="sosmed-fb">
+                  <a href="https://www.facebook.com/profile.php?id=100088009847192">
+                    <img
+                      src="https://cdn-web-2.ruangguru.com/landing-pages/assets/hs/1%20Homepage%20RG/Optimize%20V2/ic-fb.svg?convert=webp"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div className="sosmed-yt">
+                  <a href="https://www.youtube.com/@edumatrixindonesia/featured">
+                    <img
+                      src="https://cdn-web-2.ruangguru.com/landing-pages/assets/hs/1%20Homepage%20RG/Optimize%20V2/ic-youtube.svg?convert=webp"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div className="sosmed-tt">
+                  <a href="https://www.tiktok.com/@edumatrixindonesia">
+                    <img
+                      src="https://cdn-web-2.ruangguru.com/landing-pages/assets/hs/1%20Homepage%20RG/Optimize%20V2/tiktok-ic-white-40.svg?convert=webp"
+                      alt=""
+                    />
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
-          <div className="footer-social-links">
+          {/* <div className="footer-social-links">
             {" "}
             <svg
               className="footer-social-amoeba-svg"
@@ -228,7 +256,7 @@ const Footer = () => {
                 </a>
               </svg>
             </a>
-          </div>
+          </div> */}
         </div>
         <div className="footer-copyright">
           <div className="footer-copyright-wrapper">
