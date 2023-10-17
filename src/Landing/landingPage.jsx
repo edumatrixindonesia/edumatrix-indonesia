@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./landingPage.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
@@ -34,6 +34,7 @@ import promo from "../asset/promo/promo_edit.png";
 import top3 from "../asset/mt/top 3 title.png";
 import mtTop3 from "../asset/mt/top teacher.png";
 import testi from "../asset/testimoni/APA_KATA_MEREKA.png";
+import model from "../asset/landing1.png";
 // TESTIMONI
 import shinta from "../asset/testimoni/shinta.png";
 import yolanda from "../asset/testimoni/yolanda.png";
@@ -41,6 +42,8 @@ import natasya from "../asset/testimoni/natasha.jpeg";
 import gabriela from "../asset/testimoni/gabriela.png";
 import azlia from "../asset/testimoni/azlia.jpeg";
 import novandi from "../asset/testimoni/novandi.jpeg";
+import videoJesica from "../asset/testimoni/jesica.mp4";
+import videoAidil from "../asset/testimoni/aidil.mp4";
 // MASTER TAEACHER
 import ai from "../asset/mt/Ai Fatmawati.png";
 import firda from "../asset/mt/Firda Febriana Azahra.png";
@@ -56,6 +59,13 @@ import yona from "../asset/mt/Yona Tirta Sari.png";
 import Marquee from "../Marquee/Marquee";
 
 const landingPage = () => {
+  // const [click, setClick] = useState(0);
+
+  // const handleClick = () => {
+  //   setClick(click+1)
+  //   console.log(clic);
+  // }
+
   return (
     <React.Fragment>
       <a href="https://api.whatsapp.com/send?phone=+6281215523902&text=Halo%20Kak Eka%2C%20Saya%20ingin%20mendaftar%20%20Bimbel%20di Edumatrix Indonesia%20 menggunakan PROMO 11.11 di bulan November%20Terima%20kasih.">
@@ -101,7 +111,7 @@ const landingPage = () => {
                 <span className="animate-number">
                   <Number n={7312} /> +
                 </span>{" "}
-              <span className="span-desk">Siswa Belajar</span>
+                <span className="span-desk">Siswa Belajar</span>
               </p>
             </div>
           </div>
@@ -115,7 +125,7 @@ const landingPage = () => {
                 <span className="animate-number">
                   <Number n={2613} /> +
                 </span>
-              <span className="span-desk">Master Teacher</span>
+                <span className="span-desk">Master Teacher</span>
               </p>
             </div>
           </div>
@@ -129,7 +139,7 @@ const landingPage = () => {
                 <span className="animate-number">
                   <Number n={90} /> %
                 </span>{" "}
-              <span className="span-desk">Siswa Berhasil</span>
+                <span className="span-desk">Siswa Berhasil</span>
               </p>
             </div>
           </div>
@@ -143,7 +153,7 @@ const landingPage = () => {
                 <span className="animate-number">
                   <Number n={9} /> /10
                 </span>{" "}
-            <span className="span-desk">Tingkat Kepuasan Siswa</span>
+                <span className="span-desk">Tingkat Kepuasan Siswa</span>
               </p>
             </div>
           </div>
@@ -1381,19 +1391,48 @@ const landingPage = () => {
           <img className="img-novandi" src={novandi} alt="" />
         </div>
       </div>
+      {/* ---------------------------------------------------------- */}
+      <div className="container-testi-video">
+        <div className="box-jesica">
+          <video className="card-jesica" controls poster="">
+            <source
+              className="video-jesica"
+              src={videoJesica}
+              type="video/mp4"
+            />
+          </video>
+        </div>
+        {/* ---------------------------------------------------------- */}
+        <div className="box-aidil">
+          <video className="card-aidil" controls>
+            <source
+              className="video-aidil"
+              src={videoAidil}
+              type="video/mp4"
+            />
+          </video>
+        </div>
+      </div>
 
-      <div className="child-footer">
-        <h3 className="title-child-footer">
-          Kini Saatnya Kamu Bergabung di Edumatrix Indonesia
-        </h3>
-        <p className="p-child-footer">
-          Ribuan siswa telah mendapatkan pendampingan belajar terbaik. Saat ini
-          adalah waktu terbaik untuk konsultasikan kebutuhan Anda, segera
-          hubungi:
-        </p>
-        <a href="https://api.whatsapp.com/send?phone=+6281215523902&text=Halo%20Kak%20Eka%2C%20Saya%20ingin%20bertanya%20mengenai%20Bimbel%20di%20Edumatrix%20Indonesia%20Terima%20kasih.">
-          <button className="btn-child-footer">HUBUNGI KAMI</button>{" "}
-        </a>
+      <div className="container-child-footer">
+        <div className="child-footer">
+          <div className="text-child-footer">
+            <h3 className="title-child-footer">
+              Kini Saatnya Kamu Bergabung di Edumatrix Indonesia
+            </h3>
+            <p className="p-child-footer">
+              Ribuan siswa telah mendapatkan pendampingan belajar terbaik. Saat
+              ini adalah waktu terbaik untuk konsultasikan kebutuhan Anda,
+              segera hubungi:
+            </p>
+            <a href="https://api.whatsapp.com/send?phone=+6281215523902&text=Halo%20Kak%20Eka%2C%20Saya%20ingin%20bertanya%20mengenai%20Bimbel%20di%20Edumatrix%20Indonesia%20Terima%20kasih.">
+              <button className="btn-child-footer">HUBUNGI KAMI</button>{" "}
+            </a>
+          </div>
+          <div className="img-child-footer">
+            <img className="model-edm" src={model} alt="" />
+          </div>
+        </div>
       </div>
       <Footer />
     </React.Fragment>
