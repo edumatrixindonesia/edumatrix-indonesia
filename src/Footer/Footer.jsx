@@ -80,7 +80,7 @@ const Footer = () => {
               <h2 className="footer-menu-name">Konsultasi Program:</h2>
               <ul id="menu-legal" className="footer-menu-list">
                 <li className="menu-item menu-item-type-post_type menu-item-object-page">
-                  <a href="https://api.whatsapp.com/send?phone=+6281215523902&text=Halo%20Kak%20Tisha%2C%20Saya%20ingin%20bertanya%20mengenai%20Bimbel%20di%20Edumatrix%20Indonesia%20Terima%20kasih.">
+                  <a href="https://web.whatsapp.com/send?phone=6285600422188&text=Halo%20Kak%20Tisha%2C%20Saya%20ingin%20bertanya%20mengenai%20Bimbel%20di%20Edumatrix%20Indonesia%20Terima%20kasih.">
                     0856-0042-2188 (Kak Tisha)
                   </a>
                 </li>
@@ -89,11 +89,11 @@ const Footer = () => {
                     0812-1636-5729 (Kak Aulia)
                   </a>
                 </li>
-                <li className="menu-item menu-item-type-post_type menu-item-object-page">
+                {/* <li className="menu-item menu-item-type-post_type menu-item-object-page">
                   <a href="https://api.whatsapp.com/send?phone=+6281215523902&text=Halo%20Kak%20Eka%2C%20Saya%20ingin%20bertanya%20mengenai%20Bimbel%20di%20Edumatrix%20Indonesia%20Terima%20kasih.">
                     0812-1552-3902 (Kak Eka)
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
@@ -137,7 +137,7 @@ const Footer = () => {
               <h2 className="footer-call-to-action-title">HUBUNGI KAMI :</h2>
               <a href="mailto:edumatrix.id@gmail.com">
                 <button className="btn-email">
-                  <FontAwesomeIcon icon={faEnvelope} /> edumatrix.id@gmail.com
+                  <FontAwesomeIcon icon={faEnvelope} /> EDUMATRIX.ID@GMAIL.COM
                 </button>
               </a>
             </div>

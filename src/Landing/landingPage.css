@@ -1208,13 +1208,14 @@ input:checked ~ .menu-content {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   margin-top: 100px;
   gap: 20px;
 }
 /* JESICCA */
-.video-jesica {
+/* .video-jesica {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
+} */
 .card-jesica {
   width: 650px;
   border: 10px solid white;
@@ -1223,6 +1224,20 @@ input:checked ~ .menu-content {
 }
 /* AIDIL */
 .card-aidil {
+  width: 650px;
+  border: 10px solid white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+}
+/* CAHAYA */
+.card-cahaya {
+  width: 650px;
+  border: 10px solid white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+}
+/* GABRIELA */
+.card-gabriela {
   width: 650px;
   border: 10px solid white;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -1483,6 +1498,12 @@ input:checked ~ .menu-content {
   .card-aidil {
     width: 650px;
   }
+  .card-cahaya {
+    width: 650px;
+  }
+  .card-gabriela {
+    width: 650px;
+  }
 }
 
 @media only screen and (max-width: 1114px) {
@@ -1697,7 +1718,7 @@ input:checked ~ .menu-content {
     margin-right: 10px;
   }
   .title-sekolah-siswa {
-    width: 100%;
+    width: 90% !important;
   }
   .img-shinta,
   .img-yolanda,
@@ -1743,6 +1764,12 @@ input:checked ~ .menu-content {
     width: 650px;
   }
   .card-aidil {
+    width: 650px;
+  }
+  .card-cahaya {
+    width: 650px;
+  }
+  .card-gabriela {
     width: 650px;
   }
 }
@@ -1845,8 +1872,8 @@ input:checked ~ .menu-content {
     padding-right: 10%;
   }
   .box-img-ptn-ternama {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 0;
+    padding-right: 0;
   }
   .img-ptn-ternama {
     width: 100%;
@@ -1967,6 +1994,12 @@ input:checked ~ .menu-content {
     width: 650px;
   }
   .card-aidil {
+    width: 650px;
+  }
+  .card-cahaya {
+    width: 650px;
+  }
+  .card-gabriela {
     width: 650px;
   }
 }
@@ -2158,6 +2191,12 @@ input:checked ~ .menu-content {
     width: 450px;
   }
   .card-aidil {
+    width: 450px;
+  }
+  .card-cahaya {
+    width: 450px;
+  }
+  .card-gabriela {
     width: 450px;
   }
 }
@@ -2355,6 +2394,12 @@ input:checked ~ .menu-content {
   .card-aidil {
     width: 420px;
   }
+  .card-cahaya {
+    width: 420px;
+  }
+  .card-gabriela {
+    width: 420px;
+  }
 }
 
 @media only screen and (max-width: 1280px) {
@@ -2470,6 +2515,12 @@ input:checked ~ .menu-content {
     width: 520px;
   }
   .card-aidil {
+    width: 520px;
+  }
+  .card-cahaya {
+    width: 520px;
+  }
+  .card-gabriela {
     width: 520px;
   }
 }
@@ -2794,6 +2845,12 @@ input:checked ~ .menu-content {
   .card-aidil {
     width: 350px;
   }
+  .card-cahaya {
+    width: 350px;
+  }
+  .card-gabriela {
+    width: 350px;
+  }
 }
 
 @media only screen and (max-width: 375px) {
@@ -2938,6 +2995,12 @@ input:checked ~ .menu-content {
     width: 320px;
   }
   .card-aidil {
+    width: 320px;
+  }
+  .card-cahaya {
+    width: 320px;
+  }
+  .card-gabriela {
     width: 320px;
   }
 }
@@ -3404,6 +3467,12 @@ input:checked ~ .menu-content {
     width: 230px;
   }
   .card-aidil {
+    width: 230px;
+  }
+  .card-cahaya {
+    width: 230px;
+  }
+  .card-gabriela {
     width: 230px;
   }
 }

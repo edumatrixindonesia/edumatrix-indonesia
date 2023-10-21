@@ -42,8 +42,10 @@ import natasya from "../asset/testimoni/natasha.jpeg";
 import gabriela from "../asset/testimoni/gabriela.png";
 import azlia from "../asset/testimoni/azlia.jpeg";
 import novandi from "../asset/testimoni/novandi.jpeg";
-import videoJesica from "../asset/testimoni/jesica.mp4";
-import videoAidil from "../asset/testimoni/aidil.mp4";
+import videoJesica from "../asset/testimoni/jessica.mp4";
+import videoAidil from "../asset/testimoni/M. AIDIL S.mp4";
+import videoCahaya from "../asset/testimoni/NI CAHAYA.mp4";
+import videoGabriella from "../asset/testimoni/GABRIELLA M.mp4";
 // MASTER TAEACHER
 import ai from "../asset/mt/Ai Fatmawati.png";
 import firda from "../asset/mt/Firda Febriana Azahra.png";
@@ -68,11 +70,11 @@ const landingPage = () => {
 
   return (
     <React.Fragment>
-      <a href="https://api.whatsapp.com/send?phone=+6281215523902&text=Halo%20Kak Eka%2C%20Saya%20ingin%20mendaftar%20%20Bimbel%20di Edumatrix Indonesia%20 menggunakan PROMO 11.11 di bulan November%20Terima%20kasih.">
+      <a href="https://web.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Aulia%2C%20Saya%20ingin%20daftar%20Bimbel%20di%20Edumatrix%20Indonesia%20menggunakan%20*PROMO%2011.11*%20Terima%20kasih.">
         <div className="banner-promo">
           <img className="img-promo" src={promo} alt="" />
           <button className="btn-promo">
-            <a href="https://api.whatsapp.com/send?phone=+6281215523902&text=Halo%20Kak Eka%2C%20Saya%20ingin%20mendaftar%20%20Bimbel%20di Edumatrix Indonesia%20 menggunakan PROMO 11.11 di bulan November%20Terima%20kasih."></a>
+            <a href="https://web.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Aulia%2C%20Saya%20ingin%20daftar%20Bimbel%20di%20Edumatrix%20Indonesia%20menggunakan%20*PROMO%2011.11*%20Terima%20kasih."></a>
           </button>
         </div>
       </a>
@@ -93,7 +95,7 @@ const landingPage = () => {
 
           <a
             className="btn-daftar"
-            href="https://api.whatsapp.com/send?phone=+6281215523902&text=Halo%20Kak Eka%2C%20Saya%20ingin%20bertanya%20mengenai%20Bimbel%20di Edumatrix Indonesia%20Terima%20kasih."
+            href="https://web.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Aulia%2C%20Saya%20ingin%20bertanya%20mengenai%20Bimbel%20di%20Edumatrix%20Indonesia%20Terima%20kasih."
           >
             <img className="btn-png" src={button} alt="" />
           </a>
@@ -191,7 +193,7 @@ const landingPage = () => {
           </div>
         </div>
         <div className="whatsapp">
-          <a href="https://api.whatsapp.com/send?phone=+6281215523902&text=Halo%20Kak Eka%2C%20Saya%20ingin%20bertanya%20mengenai%20Bimbel%20di Edumatrix Indonesia%20Terima%20kasih.">
+          <a href="https://web.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Aulia%2C%20Saya%20ingin%20bertanya%20mengenai%20Bimbel%20di%20Edumatrix%20Indonesia%20Terima%20kasih.">
             <FontAwesomeIcon className="icon-wa" icon={faWhatsapp} />
           </a>
         </div>
@@ -202,7 +204,7 @@ const landingPage = () => {
           </div>
         </div>
         <div className="phone">
-          <a href="tel:+6281215523902" target="blank">
+          <a href="tel:+6285600422188" target="blank">
             <FontAwesomeIcon className="icon-phone" icon={faPhone} />
           </a>
         </div>
@@ -1405,9 +1407,25 @@ const landingPage = () => {
         {/* ---------------------------------------------------------- */}
         <div className="box-aidil">
           <video className="card-aidil" controls>
+            <source className="video-aidil" src={videoAidil} type="video/mp4" />
+          </video>
+        </div>
+        {/* ---------------------------------------------------------- */}
+        <div className="box-cahaya">
+          <video className="card-cahaya" controls>
             <source
-              className="video-aidil"
-              src={videoAidil}
+              className="video-cahaya"
+              src={videoCahaya}
+              type="video/mp4"
+            />
+          </video>
+        </div>
+        {/* ---------------------------------------------------------- */}
+        <div className="box-gabriela-video">
+          <video className="card-gabriela" controls>
+            <source
+              className="video-gabriela"
+              src={videoGabriella}
               type="video/mp4"
             />
           </video>
@@ -1425,7 +1443,7 @@ const landingPage = () => {
               ini adalah waktu terbaik untuk konsultasikan kebutuhan Anda,
               segera hubungi:
             </p>
-            <a href="https://api.whatsapp.com/send?phone=+6281215523902&text=Halo%20Kak%20Eka%2C%20Saya%20ingin%20bertanya%20mengenai%20Bimbel%20di%20Edumatrix%20Indonesia%20Terima%20kasih.">
+            <a href="https://web.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Aulia%2C%20Saya%20ingin%20bertanya%20mengenai%20Bimbel%20di%20Edumatrix%20Indonesia%20Terima%20kasih.">
               <button className="btn-child-footer">HUBUNGI KAMI</button>{" "}
             </a>
           </div>
