@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./landingPage.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
-import { faCircle, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faCheck, faCircle, faPhone } from "@fortawesome/free-solid-svg-icons";
 import logo from "../asset/logo_edm.png";
 import student from "../asset/jumbotron.png";
 import button from "../asset/telephone .png";
@@ -173,12 +173,54 @@ const landingPage = () => {
             <p className="p-welcome">
               Lembaga bimbingan belajar terbaik untuk SD, SMP, SMA, OSN, SNBT &
               Ujian Mandiri. Dengan sistem belajar offline tatap muka, guru
-              datang kerumah, atau online. Edumatrix juga menyediakan metode
-              belajar kelas, yakni Siswa datang langsung ke lokasi. Dengan
-              kurikulum nasional & internasional, kegiatan belajar menyesuaikan
-              kebutuhan siswa. Siswa dapat memilih metode privat 1 Guru 1 siswa,
-              ataupun small class, didampingi dengan pengajar profesional, muda
-              dan berpengalaman.
+              datang kerumah, atau online.
+              <div className="point-welcome">
+                <span className="metode-belajar-tersedia">
+                  Metode belajar kelas yang disediakan :
+                </span>
+
+                <div className="child-point-welcome">
+                  <span className="point-kelas">
+                    <FontAwesomeIcon
+                      className="icon-metode-tersedia"
+                      icon={faCheck}
+                    />{" "}
+                    Classroom
+                  </span>
+
+                  <span className="point-kelas">
+                    <FontAwesomeIcon
+                      className="icon-metode-tersedia"
+                      icon={faCheck}
+                    />{" "}
+                    Privat 1 Guru 1 Siswa/ small class
+                  </span>
+
+                  <span className="point-kelas">
+                    <FontAwesomeIcon
+                      className="icon-metode-tersedia"
+                      icon={faCheck}
+                    />{" "}
+                    Kurikulum Nasional & Internasional
+                  </span>
+
+                  <span className="point-kelas">
+                    <FontAwesomeIcon
+                      className="icon-metode-tersedia"
+                      icon={faCheck}
+                    />{" "}
+                    Kegiatan belajar menyesuaikan kebutuhan siswa
+                  </span>
+
+                  <span className="point-kelas">
+                    <FontAwesomeIcon
+                      className="icon-metode-tersedia"
+                      icon={faCheck}
+                    />{" "}
+                    Pengajar Profesional, muda dan Berpengalaman
+                  </span>
+                </div>
+              </div>
             </p>
           </div>
 

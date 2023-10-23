@@ -1244,6 +1244,25 @@ input:checked ~ .menu-content {
   border-radius: 10px;
 }
 
+/* METODE BELAJAR */
+.metode-belajar-tersedia {
+  font-size: 22px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.icon-metode-tersedia {
+  margin-right: 5px;
+}
+.point-welcome {
+  margin-top: 20px;
+}
+.point-kelas {
+  margin-top: 8px;
+}
+.child-point-welcome {
+  display: grid;
+}
+
 
 /* REASPONSIVE */
 /* IPDAD */
@@ -1422,7 +1441,7 @@ input:checked ~ .menu-content {
     width: 50%;
   }
   .navbar {
-    margin-top: 60px;
+    margin-top: 40px;
   }
   .banner-promo {
     height: auto;
@@ -1673,7 +1692,7 @@ input:checked ~ .menu-content {
     margin-right: 80px;
   }
   .navbar {
-    margin-top: 60px;
+    margin-top: 40px;
   }
   .banner-promo {
     height: 50px;
@@ -1910,7 +1929,7 @@ input:checked ~ .menu-content {
     margin-right: 80px;
   }
   .navbar {
-    margin-top: 70px;
+    margin-top: 50px;
   }
   .banner-promo {
     height: 50px;
@@ -2177,7 +2196,7 @@ input:checked ~ .menu-content {
     width: 100%;
   }
   .navbar {
-    margin-top: 50px;
+    margin-top: 30px;
   }
   .banner-promo {
     height: 50px;
@@ -2214,8 +2233,8 @@ input:checked ~ .menu-content {
     width: 100%;
   }
   .box-detail {
-    width: 80%;
-    margin-top: -13%;
+    width: 100%;
+    /* margin-top: -13%; */
   }
   .content-welcome {
     padding-left: 8%;
@@ -2336,9 +2355,9 @@ input:checked ~ .menu-content {
   .img-request-mt {
     width: 100%;
   }
-  .navbar {
+  /* .navbar {
     margin-top: 90px;
-  }
+  } */
   .banner-promo {
     height: 90px;
   }
@@ -2407,8 +2426,23 @@ input:checked ~ .menu-content {
     padding-bottom: 100px;
   }
   /* .card-cambridge {
-    width: 56%;
+    width: 80%;
+  }
+  .card {
+    width: 37%;
   } */
+  .content-welcome {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .main-box {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 20px;
+  }
+  .box-detail {
+    width: 80%;
+  }
   .title-layanan {
     font-size: 30px;
     width: 100%;
@@ -2522,6 +2556,9 @@ input:checked ~ .menu-content {
   }
   .card-gabriela {
     width: 520px;
+  }
+  .btn-png {
+    width: 50%;
   }
 }
 
@@ -2704,7 +2741,7 @@ input:checked ~ .menu-content {
     font-size: 27px;
   }
   .img-ptn-ternama {
-    width: 100%;
+    width: 90%;
   }
   .desk-ptn-ternama {
     padding-left: 10%;
@@ -2850,6 +2887,11 @@ input:checked ~ .menu-content {
   }
   .card-gabriela {
     width: 350px;
+  }
+  .point-kelas {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
   }
 }
 
@@ -3417,7 +3459,7 @@ input:checked ~ .menu-content {
     width: 90%;
   }
   .img-ptn-ternama {
-    width: 100%;
+    width: 90%;
   }
   .mt-top3 {
     width: 90%;
@@ -3425,6 +3467,9 @@ input:checked ~ .menu-content {
   }
   .img-top3 {
     width: 70%;
+  }
+  .navbar {
+    margin-top: 50px;
   }
 }
 
