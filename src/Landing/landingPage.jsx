@@ -47,6 +47,9 @@ import videoAidil from "../asset/testimoni/M. AIDIL S.mp4";
 import videoCahaya from "../asset/testimoni/NI CAHAYA.mp4";
 import videoGabriella from "../asset/testimoni/GABRIELLA M.mp4";
 import thumbJessica from "../asset/testimoni/thumbnail-jessica.jpg";
+import thumbAidil from "../asset/testimoni/aidil.jpeg"
+import thumbCahaya from "../asset/testimoni/cahaya.jpeg"
+import thumbGabriela from "../asset/testimoni/gabriela.jpeg"
 // MASTER TAEACHER
 import ai from "../asset/mt/Ai Fatmawati.png";
 import firda from "../asset/mt/Firda Febriana Azahra.png";
@@ -1446,13 +1449,13 @@ const landingPage = () => {
         </div>
         {/* ---------------------------------------------------------- */}
         <div className="box-aidil">
-          <video className="card-aidil" controls>
+          <video className="card-aidil" controls poster={thumbAidil}>
             <source className="video-aidil" src={videoAidil} type="video/mp4" />
           </video>
         </div>
         {/* ---------------------------------------------------------- */}
         <div className="box-cahaya">
-          <video className="card-cahaya" controls>
+          <video className="card-cahaya" controls poster={thumbCahaya}>
             <source
               className="video-cahaya"
               src={videoCahaya}
@@ -1462,7 +1465,7 @@ const landingPage = () => {
         </div>
         {/* ---------------------------------------------------------- */}
         <div className="box-gabriela-video">
-          <video className="card-gabriela" controls>
+          <video className="card-gabriela" controls poster={thumbGabriela}>
             <source
               className="video-gabriela"
               src={videoGabriella}

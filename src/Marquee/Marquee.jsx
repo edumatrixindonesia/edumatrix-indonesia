@@ -68,7 +68,7 @@ const Marquee = () => {
                 UNIVERSITAS BRAWIJAYA
               </p>
             </div>
-            <div className="box-ilman">
+            {/* <div className="box-ilman">
               <img className="img-all-mt" src={ilman} alt="" />
               <p className="nama-mt">ILMAN HAJAR</p>
               <p>
@@ -78,7 +78,7 @@ const Marquee = () => {
                 <FontAwesomeIcon className="icon-mt" icon={faUniversity} />{" "}
                 UNIVERSITAS PADJAJARAN
               </p>
-            </div>
+            </div> */}
             <div className="box-mela">
               <img className="img-all-mt" src={mella} alt="" />
               <p className="nama-mt">MELLA NAROLITA</p>
@@ -106,7 +106,7 @@ const Marquee = () => {
                 UNIVERSITY OF MANCHESTER
               </p>
             </div>
-            <div className="box-novia">
+            {/* <div className="box-novia">
               <img className="img-all-mt" src={novia} alt="" />
               <p className="nama-mt">NOVIA RAHMAWATY PU TRI</p>
               <p>
@@ -154,7 +154,7 @@ const Marquee = () => {
                 <FontAwesomeIcon className="icon-mt" icon={faUniversity} />{" "}
                 UNIVERSITAS TIDAR
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
