@@ -251,6 +251,7 @@ body {
   margin-left: 50px;
 }
 
+
 /* KURIKULUM/ PENGAJAR/ UNIVERSITAS */
 .box-pengajar {
   background-color: #0d387c;
@@ -281,7 +282,17 @@ body {
 .img-univ {
   width: 60%;
   margin-top: 50px;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: img-univ;
+  animation-timing-function: linear;
 }
+/* ADD ANIMATION */
+/* @keyframes img-univ {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-30px); }
+  100% { transform: translateY(0); }
+} */
 .parent-mt {
   display: flex;
   justify-content: center;
@@ -294,6 +305,7 @@ body {
   width: 40%;
   font-size: 35px;
 }
+
 
 /* CARD KURIKULUM */
 .big-parent-card {
@@ -616,6 +628,7 @@ hr {
   color: white;
   width: 100%;
 }
+
 /* ACORDION SEKOLAH */
 /* SD */
 .all-accordion {
@@ -1199,10 +1212,21 @@ input:checked ~ .menu-content {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   cursor: pointer;
 }
+/* ADD ANIMATION */
 .model-edm {
   width: 45%;
   margin-left: 20%;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: model-edm;
+  animation-timing-function: linear;
 }
+@keyframes model-edm {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-40px); }
+  100% { transform: translateY(0); }
+}
+
 /* VIDEO TESTIMONI */
 .container-testi-video {
   display: flex;
@@ -1250,6 +1274,26 @@ input:checked ~ .menu-content {
   margin-top: 20px;
   font-weight: bold;
 }
+.text-animation {
+  font-family: "Poppins", sans-serif;
+  overflow: hidden; 
+  border-right: .15em solid #f53367;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #f53367 }
+}
+
 .icon-metode-tersedia {
   margin-right: 5px;
 }
@@ -1263,6 +1307,67 @@ input:checked ~ .menu-content {
   display: grid;
 }
 
+
+/* FLOAT WA */
+.box-float-main {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 99;
+  background-color: #00b9da;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding-left: 0;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.btn-float-tlp {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  background-color: #f53367;
+  border: 1px solid transparent;
+  color: white;
+  padding: 15px;
+  padding-left: 6px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.parent-icon-tlp {
+  background-color: #9b0029;
+  padding: 12px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 100px;
+  width: 100px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.btn-float-wa {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  background-color: #00b33c;
+  border: 1px solid transparent;
+  color: white;
+  padding: 15px;
+  padding-left: 6px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.parent-icon-wa {
+  background-color: #00852c;
+  padding: 12px;
+  padding-right: 16px;
+  padding-left: 16px;
+  border-radius: 100px;
+  width: 100px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+}
+.main-parent-wa {
+  cursor: pointer;
+}
 
 /* REASPONSIVE */
 /* IPDAD */
@@ -1522,6 +1627,11 @@ input:checked ~ .menu-content {
   }
   .card-gabriela {
     width: 650px;
+  }
+  @keyframes model-edm {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(0); }
+    100% { transform: translateY(0); }
   }
 }
 
@@ -1791,6 +1901,11 @@ input:checked ~ .menu-content {
   .card-gabriela {
     width: 650px;
   }
+  @keyframes model-edm {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(0); }
+    100% { transform: translateY(0); }
+  }
 }
 
 @media only screen and (max-width: 912px) {
@@ -2020,6 +2135,11 @@ input:checked ~ .menu-content {
   }
   .card-gabriela {
     width: 650px;
+  }
+  @keyframes model-edm {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(0); }
+    100% { transform: translateY(0); }
   }
 }
 
@@ -2560,6 +2680,9 @@ input:checked ~ .menu-content {
   .btn-png {
     width: 50%;
   }
+  /* .box-float-main {
+    display: grid;
+  } */
 }
 
 /* ----------------------------------------------------- */
@@ -2870,6 +2993,7 @@ input:checked ~ .menu-content {
   .model-edm {
     margin-left: 0;
     width: 50%;
+    margin-top: 40px;
   }
   .container-testi-video {
     display: grid;
@@ -3529,6 +3653,13 @@ input:checked ~ .menu-content {
   }
 }
 
+@media only screen and (max-width: 430px) {
+  @keyframes model-edm {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(0); }
+    100% { transform: translateY(0); }
+  }
+}
 /* LENOVO */
 /* @media only screen and (max-width: 1300px) {
   .btn-png {

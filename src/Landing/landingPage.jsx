@@ -46,6 +46,7 @@ import videoJesica from "../asset/testimoni/jessica.mp4";
 import videoAidil from "../asset/testimoni/M. AIDIL S.mp4";
 import videoCahaya from "../asset/testimoni/NI CAHAYA.mp4";
 import videoGabriella from "../asset/testimoni/GABRIELLA M.mp4";
+import thumbJessica from "../asset/testimoni/thumbnail-jessica.jpg";
 // MASTER TAEACHER
 import ai from "../asset/mt/Ai Fatmawati.png";
 import firda from "../asset/mt/Firda Febriana Azahra.png";
@@ -176,7 +177,7 @@ const landingPage = () => {
               datang kerumah, atau online.
               <div className="point-welcome">
                 <span className="metode-belajar-tersedia">
-                  Metode belajar kelas yang disediakan :
+                  <h3 className="text-animation">Metode belajar kelas yang disediakan :</h3>
                 </span>
 
                 <div className="child-point-welcome">
@@ -228,7 +229,7 @@ const landingPage = () => {
         </div>
       </div>
 
-      <div className="icon-call">
+      {/* <div className="icon-call">
         <div className="parent-boxcall1">
           <div className="box-call">
             Need Help? <strong>Chat with us</strong>
@@ -250,7 +251,7 @@ const landingPage = () => {
             <FontAwesomeIcon className="icon-phone" icon={faPhone} />
           </a>
         </div>
-      </div>
+      </div> */}
 
       {/*-----------------------PENGAJAR LULUSAN TERBAIK-----------------------*/}
 
@@ -268,10 +269,7 @@ const landingPage = () => {
             Tinggi Negeri atau Luar Negeri terbaik seperti UI, UGM, ITB, UNAIR,
             UNPAD, STAN, STIS, UIN, The University of Adelaide, Università
             degli, Novosibirsk State University, The University of Manchester
-            dan Perguruan Tinggi terbaik lainnya. Master Teacher terfavorit kami
-            telah berpengalaman mengajar sesuai dengan bidang keilmuwan yang
-            dikuasai dan telah melewati proses seleksi akademik sesuai dengan
-            standar Edumatrix.
+            dan Perguruan Tinggi terbaik lainnya.
           </p>
         </div>
         <div className="parent-univ">
@@ -1438,7 +1436,7 @@ const landingPage = () => {
       {/* ---------------------------------------------------------- */}
       <div className="container-testi-video">
         <div className="box-jesica">
-          <video className="card-jesica" controls poster="">
+          <video className="card-jesica" controls poster={thumbJessica}>
             <source
               className="video-jesica"
               src={videoJesica}
@@ -1492,6 +1490,32 @@ const landingPage = () => {
           <div className="img-child-footer">
             <img className="model-edm" src={model} alt="" />
           </div>
+        </div>
+      </div>
+      {/* -------------------------------------------------- */}
+      <div className="box-float-main">
+        <a href="tel:+6285600422188">
+        <div className="main-parent-call">
+          <button className="btn-float-tlp">
+            <span className="parent-icon-tlp">
+              <FontAwesomeIcon icon={faPhone} />
+            </span>{" "}
+            TELEPON
+          </button>
+        </div>
+        </a>
+        <div className="main-parent-wa">
+          <a
+            className="parent-btn-wa"
+            href="https://web.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Aulia%2C%20Saya%20ingin%20bertanya%20mengenai%20Bimbel%20di%20Edumatrix%20Indonesia%20Terima%20kasih."
+          >
+            <button className="btn-float-wa">
+              <span className="parent-icon-wa">
+                <FontAwesomeIcon icon={faWhatsapp} />
+              </span>{" "}
+              WHATSAPP
+            </button>
+          </a>
         </div>
       </div>
       <Footer />
