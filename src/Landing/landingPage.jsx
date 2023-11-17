@@ -13,13 +13,20 @@ import tingkatKepuasan from "../asset/tingkat_kepuasan_siswa_2.png";
 import mahasiswa from "../asset/foto_mahasiswa.png";
 import Number from "../Number/number";
 import univ from "../asset/kurikulum/univ.png";
-import nasional from "../asset/kurikulum/kurikulum_nasional.png";
-import internasional from "../asset/kurikulum/kurikulum_internasional.png";
-import montessori from "../asset/kurikulum/kurikulum_montessori.png";
-import ib from "../asset/kurikulum/international_baccalaureate.png";
-import ipc from "../asset/kurikulum/ipc_.png";
-import spc from "../asset/kurikulum/singapore_curriculum.png";
+import nasional from "../asset/kurikulum/kurikulum_nasional.jpeg";
+import internasional from "../asset/kurikulum/kurikulum_internasional.jpeg";
+import montessori from "../asset/kurikulum/montessori.jpeg";
+import ib from "../asset/kurikulum/ib.jpeg";
+import ipc from "../asset/kurikulum/ipc.jpeg";
+import spc from "../asset/kurikulum/sc.jpeg";
 import cambridge from "../asset/kurikulum/cambridge.png";
+import cPrimary from "../asset/kurikulum/c primary.jpeg";
+import cLower from "../asset/kurikulum/c lower.jpeg";
+import cUper from "../asset/kurikulum/c uper.jpeg";
+import advcanceAlevel from "../asset/kurikulum/advance a level.jpeg";
+import advcanceAslevel from "../asset/kurikulum/cambrige as level.jpeg";
+import advcanceCollage from "../asset/kurikulum/advance college.jpeg";
+
 import Slide from "../Carousel/Carousel";
 import Accordion from "../Accordion/Accordion";
 import sd from "../asset/sekolah/sd.png";
@@ -47,9 +54,9 @@ import videoAidil from "../asset/testimoni/M. AIDIL S.mp4";
 import videoCahaya from "../asset/testimoni/NI CAHAYA.mp4";
 import videoGabriella from "../asset/testimoni/GABRIELLA M.mp4";
 import thumbJessica from "../asset/testimoni/thumbnail-jessica.jpg";
-import thumbAidil from "../asset/testimoni/aidil.jpeg"
-import thumbCahaya from "../asset/testimoni/cahaya.jpeg"
-import thumbGabriela from "../asset/testimoni/gabriela.jpeg"
+import thumbAidil from "../asset/testimoni/aidil.jpeg";
+import thumbCahaya from "../asset/testimoni/cahaya.jpeg";
+import thumbGabriela from "../asset/testimoni/gabriela.jpeg";
 // MASTER TAEACHER
 import ai from "../asset/mt/Ai Fatmawati.png";
 import firda from "../asset/mt/Firda Febriana Azahra.png";
@@ -172,7 +179,10 @@ const landingPage = () => {
         <div className="content-welcome">
           <div className="teks-welcome">
             <h1 className="title-welcome">
-              Edumatrix Indonesia, Program Belajar Terlengkap{" "}
+              Edumatrix Indonesia,{" "}
+              <span className="bg-title-welcome">
+                Program Belajar Terlengkap
+              </span>{" "}
             </h1>
             <p className="p-welcome">
               Lembaga bimbingan belajar terbaik untuk SD, SMP, SMA, OSN, SNBT &
@@ -180,7 +190,9 @@ const landingPage = () => {
               datang kerumah, atau online.
               <div className="point-welcome">
                 <span className="metode-belajar-tersedia">
-                  <h3 className="text-animation">Metode belajar kelas yang disediakan :</h3>
+                  <h3 className="text-animation">
+                    Metode belajar kelas yang disediakan :
+                  </h3>
                 </span>
 
                 <div className="child-point-welcome">
@@ -281,7 +293,8 @@ const landingPage = () => {
 
         <div className="parent-mt">
           <h1 className="title-mt">
-            Master Teacher Edumatrix Bisa Mengajar Semua Kurikulum
+            Master Teacher Edumatrix{" "}
+            <span className="bg-title-mt">Bisa Mengajar Semua Kurikulum</span>
           </h1>
         </div>
       </div>
@@ -289,13 +302,13 @@ const landingPage = () => {
       {/* NASIONAL */}
       <div className="big-parent-card">
         <div className="card">
-          <div className="header-card">
+          {/* <div className="header-card">
             <h3 className="title-card-nasional">Kurikulum Nasional</h3>
-          </div>
+          </div> */}
           <div className="parent-img-nasional">
             <img className="img-card-nasional" src={nasional} alt="" />
           </div>
-          <div className="parent-desk">
+          {/* <div className="parent-desk">
             <p className="icon-teks">
               <FontAwesomeIcon className="icon-circle" icon={faCircle} />{" "}
               Kurikulum Merdeka
@@ -311,7 +324,7 @@ const landingPage = () => {
             <p className="icon-teks">
               <FontAwesomeIcon className="icon-circle" icon={faCircle} /> KTSP
             </p>
-          </div>
+          </div> */}
         </div>
 
         {/* -------------------------------------------------- */}
@@ -319,20 +332,20 @@ const landingPage = () => {
         {/* INTERNASIONAL */}
         <div className="card">
           <div className="header-card">
-            <h3 className="title-card-internasional">
+            {/* <h3 className="title-card-internasional">
               Kurikulum Internasional
-            </h3>
+            </h3> */}
           </div>
           <div className="parent-img-internasional">
             <img className="img-card" src={internasional} alt="" />
           </div>
-          <div className="parent-desk">
+          {/* <div className="parent-desk">
             <p>
               Tidak hanya bimbingan belajar untuk kurikulum nasional, Edumatrix
               juga menyediakan pembelajaran bagi Siswa yang bersekolah dengan
               pengaplikasian kurikulum internasional
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -342,20 +355,23 @@ const landingPage = () => {
 
       <div className="pengaplikasian-kurikulum">
         <h1 className="title-pengaplikasian">
-          Berikut Pengaplikasian Kurikulum Internasional di Edumatrix
+          Berikut Pengaplikasian{" "}
+          <span className="bg-title-pengaplikasian">
+            Kurikulum Internasional di Edumatrix
+          </span>
         </h1>
       </div>
 
       {/* INTERNASIONAL */}
       <div className="big-parent-card">
         <div className="card">
-          <div className="header-card">
+          {/* <div className="header-card">
             <h3 className="title-card-internasional">Kurikulum Montessori</h3>
-          </div>
+          </div> */}
           <div className="parent-img-internasional">
             <img className="img-card" src={montessori} alt="" />
           </div>
-          <div className="parent-desk">
+          {/* <div className="parent-desk">
             <p className="icon-teks-pengaplikasian">
               <FontAwesomeIcon className="icon-circle" icon={faCircle} /> Tahap
               Awal (0-6 tahun)
@@ -380,7 +396,7 @@ const landingPage = () => {
               <br />
               Fokus ke: pembelajaran dewasa.
             </p>
-          </div>
+          </div> */}
         </div>
 
         {/* -------------------------------------------------- */}
@@ -388,14 +404,14 @@ const landingPage = () => {
         {/* INTERNASIONAL */}
         <div className="card">
           <div className="header-card">
-            <h3 className="title-card-internasional">
+            {/* <h3 className="title-card-internasional">
               International Baccalaureate (IB)
-            </h3>
+            </h3> */}
           </div>
           <div className="parent-img-internasional">
             <img className="img-card-ib" src={ib} alt="" />
           </div>
-          <div className="parent-teks-subject">
+          {/* <div className="parent-teks-subject">
             <p className="subject-teks">Subjects</p>
           </div>
           <div className="parent-desk">
@@ -413,8 +429,8 @@ const landingPage = () => {
             <p className="icon-teks">
               <FontAwesomeIcon className="icon-circle" icon={faCircle} /> Bahasa
             </p>
-          </div>
-          <div className="parent-teks-subject">
+          </div> */}
+          {/* <div className="parent-teks-subject">
             <p className="subject-teks">Komponen mata pelajaran</p>
           </div>
           <div className="parent-desk">
@@ -430,7 +446,7 @@ const landingPage = () => {
               <FontAwesomeIcon className="icon-circle" icon={faCircle} /> CAS
               (Creative, Action, Service)
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -438,17 +454,17 @@ const landingPage = () => {
       <div className="big-parent-card">
         <div className="card">
           <div className="header-card">
-            <h3 className="title-card-internasional-ipc">
+            {/* <h3 className="title-card-internasional-ipc">
               International Primary Curriculum (IPC)
-            </h3>
+            </h3> */}
           </div>
           <div className="parent-img-internasional">
             <img className="img-card-ipc" src={ipc} alt="" />
           </div>
-          <div className="parent-teks-subject">
+          {/* <div className="parent-teks-subject">
             <p className="subject-teks">Subjects</p>
-          </div>
-          <div className="parent-desk-ipc">
+          </div> */}
+          {/* <div className="parent-desk-ipc">
             <div className="line-1">
               <p className="icon-teks-pengaplikasian">
                 <FontAwesomeIcon className="icon-circle" icon={faCircle} />
@@ -498,7 +514,7 @@ const landingPage = () => {
                 Society
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* -------------------------------------------------- */}
@@ -506,14 +522,14 @@ const landingPage = () => {
         {/* INTERNASIONAL */}
         <div className="card">
           <div className="header-card">
-            <h3 className="title-card-internasional-spc">
+            {/* <h3 className="title-card-internasional-spc">
               Singaporean Primary School Curriculum (SPC)
-            </h3>
+            </h3> */}
           </div>
           <div className="parent-img-internasional">
             <img className="img-card-ib" src={spc} alt="" />
           </div>
-          <div className="parent-desk">
+          {/* <div className="parent-desk">
             <p className="icon-teks">
               <FontAwesomeIcon className="icon-circle" icon={faCircle} />{" "}
               English Language
@@ -544,7 +560,7 @@ const landingPage = () => {
               <FontAwesomeIcon className="icon-circle" icon={faCircle} /> Social
               Studies
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -562,64 +578,22 @@ const landingPage = () => {
           <div className="all-primary">
             {/* PRIMARY */}
             <div className="card-cambridge-primary">
-              <div className="header-card">
-                <h3 className="cambridge-primary">Cambridge Primary</h3>
-              </div>
-              <div className="parent-desk">
-                <p className="icon-teks-primary">
-                  <FontAwesomeIcon className="icon-circle" icon={faCircle} />{" "}
-                  Kelas: 1-6 SD
-                </p>
-                <hr />
-                <p className="icon-teks-primary">
-                  <FontAwesomeIcon className="icon-circle" icon={faCircle} />
-                  Subject: English, Mathematics, dan Science
-                </p>
+              <div className="parent-img-internasional">
+                <img className="img-card-cprimary" src={cPrimary} alt="" />
               </div>
             </div>
 
             {/* LOWER */}
             <div className="card-cambridge-secondary">
-              <div className="header-card">
-                <h3 className="cambridge-secondary">
-                  Cambridge Lower Secondary
-                </h3>
-              </div>
-              <div className="parent-desk">
-                <p className="icon-teks-primary">
-                  <FontAwesomeIcon className="icon-circle" icon={faCircle} />{" "}
-                  Kelas: 7-8 SD
-                </p>
-                <hr />
-                <p className="icon-teks-primary">
-                  <FontAwesomeIcon className="icon-circle" icon={faCircle} />
-                  Subject: English, Mathematics, dan Combine Science (Biology,
-                  Physics, Chemistry)
-                </p>
+              <div className="parent-img-internasional">
+                <img className="img-card-cprimary" src={cLower} alt="" />
               </div>
             </div>
 
             {/* UPPER */}
             <div className="card-cambridge-upper">
-              <div className="header-card">
-                <h3 className="cambridge-upper">Cambridge Upper Secondary</h3>
-              </div>
-              <div className="parent-desk">
-                <p className="icon-teks-primary">
-                  <FontAwesomeIcon className="icon-circle" icon={faCircle} />{" "}
-                  Program: ICGSE, O Level
-                </p>
-                <hr />
-                <p className="icon-teks-primary">
-                  <FontAwesomeIcon className="icon-circle" icon={faCircle} />{" "}
-                  Kelas: 9-10 SD
-                </p>
-                <hr />
-                <p className="icon-teks-primary">
-                  <FontAwesomeIcon className="icon-circle" icon={faCircle} />
-                  Subject: English, Mathematics, dan Science, Biology, Physics,
-                  Chemistry, dll.
-                </p>
+            <div className="parent-img-internasional">
+                <img className="img-card-cprimary" src={cUper} alt="" />
               </div>
             </div>
           </div>
@@ -629,68 +603,22 @@ const landingPage = () => {
           <div className="all-advance">
             {/* ADVANCE */}
             <div className="card-cambridge-advance">
-              <div className="header-card">
-                <h3 className="cambridge-advance">Cambridge Advanced</h3>
-              </div>
-              <div className="parent-desk">
-                <p className="icon-teks-advance">
-                  <FontAwesomeIcon className="icon-circle" icon={faCircle} />
-                  Program: Cambridge International A Levels
-                </p>
-                <hr />
-                <p className="icon-teks-advance">
-                  <FontAwesomeIcon className="icon-circle" icon={faCircle} />
-                  Kelas: 11 & 12 SMA
-                </p>
-                <hr />
-                <p className="icon-teks-advance">
-                  <FontAwesomeIcon className="icon-circle" icon={faCircle} />
-                  Subject: English, Mathematics, Science, Business, ICT
-                  (Information, Computer, and Technology), dan Arts.
-                </p>
+            <div className="parent-img-internasional">
+                <img className="img-card-cprimary" src={advcanceAlevel} alt="" />
               </div>
             </div>
 
             {/* ADVANCE */}
             <div className="card-cambridge-advance">
-              <div className="header-card">
-                <h3 className="cambridge-advance">Cambridge Advanced</h3>
-              </div>
-              <div className="parent-desk">
-                <p className="icon-teks-advance">
-                  <FontAwesomeIcon className="icon-circle" icon={faCircle} />{" "}
-                  Program: Cambridge International AS Levels
-                </p>
-                <hr />
-                <p className="icon-teks-advance">
-                  <FontAwesomeIcon className="icon-circle" icon={faCircle} />{" "}
-                  Kelas: 11 SMA
-                </p>
-                <hr />
-                <p className="icon-teks-advance">
-                  <FontAwesomeIcon className="icon-circle" icon={faCircle} />
-                  Subject: English, Mathematics, Science, Business, ICT
-                  (Information, Computer, and Technology), dan Arts.
-                </p>
+            <div className="parent-img-internasional">
+                <img className="img-card-cprimary" src={advcanceAslevel} alt="" />
               </div>
             </div>
 
             {/* ADVANCE */}
             <div className="card-cambridge-advance">
-              <div className="header-card">
-                <h3 className="cambridge-advance">Cambridge Advanced</h3>
-              </div>
-              <div className="parent-desk">
-                <p className="icon-teks-advance">
-                  <FontAwesomeIcon className="icon-circle" icon={faCircle} />{" "}
-                  Program: Cambridge Pre-U College (Pra-Universitas)
-                </p>
-                <hr />
-                <p className="icon-teks-advance">
-                  <FontAwesomeIcon className="icon-circle" icon={faCircle} />{" "}
-                  Subject: Art & Design, Biology, Chemistry, Economics, English
-                  Literature, French, Geography, dll.
-                </p>
+            <div className="parent-img-internasional">
+                <img className="img-card-cprimary" src={advcanceCollage} alt="" />
               </div>
             </div>
           </div>
@@ -1095,8 +1023,10 @@ const landingPage = () => {
 
       <div className="parent-sekolah-siswa">
         <h1 className="title-sekolah-siswa">
-          Siswa Edumatrix berasal dari berbagai sekolah dan Universitas di
-          seluruh Indonesia
+          Siswa Edumatrix{" "}
+          <span className="bg-asal-sekolah">
+            berasal dari berbagai sekolah dan Universitas di seluruh Indonesia
+          </span>
         </h1>
       </div>
 
@@ -1498,14 +1428,14 @@ const landingPage = () => {
       {/* -------------------------------------------------- */}
       <div className="box-float-main">
         <a href="tel:+6285600422188">
-        <div className="main-parent-call">
-          <button className="btn-float-tlp">
-            <span className="parent-icon-tlp">
-              <FontAwesomeIcon icon={faPhone} />
-            </span>{" "}
-            TELEPON
-          </button>
-        </div>
+          <div className="main-parent-call">
+            <button className="btn-float-tlp">
+              <span className="parent-icon-tlp">
+                <FontAwesomeIcon icon={faPhone} />
+              </span>{" "}
+              TELEPON
+            </button>
+          </div>
         </a>
         <div className="main-parent-wa">
           <a
