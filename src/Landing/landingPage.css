@@ -544,20 +544,20 @@ body {
   padding: 18px;
   border-radius: 15px 15px 0 0;
 }
-.card-cambridge-primary {
+/* .card-cambridge-primary {
   background-color: white;
-  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   width: 40%;
   border-radius: 15px;
   padding-bottom: 80px;
   text-align: left;
   transition: 0.5s;
   cursor: pointer;
-}
-.card-cambridge-primary:hover {
+} */
+/* .card-cambridge-primary:hover {
   box-shadow: #0d387c 0px 3px 8px;
   transition: 0.5s;
-}
+} */
 .icon-teks-primary {
   display: flex;
   align-items: center;
@@ -571,16 +571,16 @@ body {
   padding: 7px;
   border-radius: 15px 15px 0 0;
 }
-.card-cambridge-secondary {
+/* .card-cambridge-secondary {
   background-color: white;
-  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   width: 40%;
   border-radius: 15px;
   padding-bottom: 80px;
   text-align: left;
   transition: 0.5s;
   cursor: pointer;
-}
+} */
 .card-cambridge-secondary:hover {
   /* box-shadow: #11c8ea 0px 3px 8px; */
   transition: 0.5s;
@@ -593,15 +593,15 @@ body {
   padding: 7px;
   border-radius: 15px 15px 0 0;
 }
-.card-cambridge-upper {
+/* .card-cambridge-upper {
   background-color: white;
-  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   width: 40%;
   border-radius: 15px;
   padding-bottom: 80px;
   text-align: left;
   transition: 0.5s;
-}
+} */
 .card-cambridge-upper:hover {
   /* box-shadow: #ffaf28 0px 3px 8px; */
   transition: 0.5s;
@@ -625,15 +625,15 @@ body {
   padding: 18px;
   border-radius: 15px 15px 0 0;
 }
-.card-cambridge-advance {
+/* .card-cambridge-advance {
   background-color: white;
-  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   width: 40%;
   border-radius: 15px;
   padding-bottom: 20px;
   text-align: left;
   transition: 0.5s;
-}
+} */
 .card-cambridge-advance:hover {
   /* box-shadow: #f53367 0px 3px 8px; */
   transition: 0.5s;
