@@ -80,12 +80,12 @@ const Footer = () => {
               <h2 className="footer-menu-name">Konsultasi Program:</h2>
               <ul id="menu-legal" className="footer-menu-list">
                 <li className="menu-item menu-item-type-post_type menu-item-object-page">
-                  <a href="https://web.whatsapp.com/send?phone=6285600422188&text=Halo%20Kak%20Tisha%2C%20Saya%20ingin%20bertanya%20mengenai%20Bimbel%20di%20Edumatrix%20Indonesia%20Terima%20kasih.">
+                  <a href="https://wa.me/6285600422188?text=Halo%20Kak%20Tisha%2C%20Saya%20ingin%20bertanya%20mengenai%20Bimbel%20di%20Edumatrix%20Indonesia%20Terima%20kasih.">
                     0856-0042-2188 (Kak Tisha)
                   </a>
                 </li>
                 <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-170434">
-                  <a href="https://web.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%2C%20Saya%20ingin%20bertanya%20mengenai%20Bimbel%20di%20Edumatrix%20Indonesia%20Terima%20kasih.">
+                  <a href="https://wa.me/6281216365729?text=Halo%20Kak%20Nia%2C%20Saya%20ingin%20bertanya%20mengenai%20Bimbel%20di%20Edumatrix%20Indonesia%20Terima%20kasih.">
                     0812-1636-5729 (Kak Nia)
                   </a>
                 </li>

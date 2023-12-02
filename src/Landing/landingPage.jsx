@@ -37,7 +37,7 @@ import Footer from "../Footer/Footer";
 import ptnTernama from "../asset/kualifikasi/lulusan_PTN.png";
 import berpengalamanMengajar from "../asset/kualifikasi/berpengalaman_mengajar.png";
 import requestMt from "../asset/kualifikasi/Rquest_master.png";
-import promo from "../asset/promo/promo_edit.png";
+import promo from "../asset/promo/promosi_akhir_tahun.png";
 import top3 from "../asset/mt/top 3 title.png";
 import mtTop3 from "../asset/mt/top teacher.png";
 import testi from "../asset/testimoni/APA_KATA_MEREKA.png";
@@ -81,12 +81,12 @@ const landingPage = () => {
 
   return (
     <React.Fragment>
-      <a href="https://web.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%2C%20Saya%20ingin%20daftar%20Bimbel%20di%20Edumatrix%20Indonesia%20menggunakan%20*PROMO%2011.11*%20Terima%20kasih.">
+      <a href="https://wa.me/6281216365729?text=Halo%20Kak%20Nia%2C%20Saya%20ingin%20daftar%20Bimbel%20di%20Edumatrix%20Indonesia%20menggunakan%20*PROMO*%20Terima%20kasih.">
         <div className="banner-promo">
           <img className="img-promo" src={promo} alt="" />
-          <button className="btn-promo">
+          {/* <button className="btn-promo">
             <a href="https://web.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%2C%20Saya%20ingin%20daftar%20Bimbel%20di%20Edumatrix%20Indonesia%20menggunakan%20*PROMO%2011.11*%20Terima%20kasih."></a>
-          </button>
+          </button> */}
         </div>
       </a>
       <div className="navbar">
@@ -106,7 +106,7 @@ const landingPage = () => {
 
           <a
             className="btn-daftar"
-            href="https://web.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%2C%20Saya%20ingin%20bertanya%20mengenai%20Bimbel%20di%20Edumatrix%20Indonesia%20Terima%20kasih."
+            href="https://wa.me/6281216365729?text=Halo%20Kak%20Nia%2C%20Saya%20ingin%20bertanya%20mengenai%20Bimbel%20di%20Edumatrix%20Indonesia%20Terima%20kasih."
           >
             <img className="btn-png" src={button} alt="" />
           </a>
@@ -1416,7 +1416,7 @@ const landingPage = () => {
               ini adalah waktu terbaik untuk konsultasikan kebutuhan Anda,
               segera hubungi:
             </p>
-            <a href="https://web.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%2C%20Saya%20ingin%20bertanya%20mengenai%20Bimbel%20di%20Edumatrix%20Indonesia%20Terima%20kasih.">
+            <a href="https://wa.me/6281216365729?text=Halo%20Kak%20Nia%2C%20Saya%20ingin%20bertanya%20mengenai%20Bimbel%20di%20Edumatrix%20Indonesia%20Terima%20kasih.">
               <button className="btn-child-footer">HUBUNGI KAMI</button>{" "}
             </a>
           </div>
@@ -1440,7 +1440,7 @@ const landingPage = () => {
         <div className="main-parent-wa">
           <a
             className="parent-btn-wa"
-            href="https://web.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%2C%20Saya%20ingin%20bertanya%20mengenai%20Bimbel%20di%20Edumatrix%20Indonesia%20Terima%20kasih."
+            href="https://wa.me/6281216365729?text=Halo%20Kak%20Nia%2C%20Saya%20ingin%20bertanya%20mengenai%20Bimbel%20di%20Edumatrix%20Indonesia%20Terima%20kasih."
           >
             <button className="btn-float-wa">
               <span className="parent-icon-wa">

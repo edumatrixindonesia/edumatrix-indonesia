@@ -14,7 +14,7 @@ body {
 .banner-promo {
   /* height: 170px; */
   width: 100%;
-  background-color: #f53367;
+  background-color: #05469a;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,9 +22,13 @@ body {
   top: 0;
   z-index: 999;
   height: auto;
+  background-image: url("../asset/promo/bg_promo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40%;
 }
 .img-promo {
-  width: 30%;
+  width: 23%;
 }
 .btn-promo {
   border: 1px solid transparent;
@@ -67,7 +71,7 @@ body {
 .logo-edm {
   margin-left: 18%;
   width: 13%;
-  margin-top: 10px;
+  margin-top: 20px;
   cursor: pointer;
 }
 .text-nav {
@@ -1428,6 +1432,7 @@ input:checked ~ .menu-content {
   .logo-edm {
     width: 30% !important;
     margin-left: 50px !important;
+    margin-top: 30px;
   }
   .title-welcome {
     font-size: 30px;
@@ -2758,6 +2763,7 @@ input:checked ~ .menu-content {
   .logo-edm {
     width: 40%;
     margin-left: 30px;
+    margin-top: 30px;
   }
   .parent-boxcall2 {
     display: none;
@@ -2952,13 +2958,16 @@ input:checked ~ .menu-content {
     margin-top: 50px;
   }
   .banner-promo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: auto;
   }
   .img-promo {
-    width: 100%;
+    width: 80%;
     margin-left: 0;
     margin-top: 0;
-    margin-right: 10%;
+    margin-right: 0;
   }
   .btn-promo {
     display: none;
@@ -3694,6 +3703,9 @@ input:checked ~ .menu-content {
 @media only screen and (max-width: 430px) {
   .mt-top3 {
     width: 100%;
+  }
+  .logo-edm {
+    margin-top: 30px;
   }
   @keyframes model-edm {
     0%   { transform: translateY(0); }
