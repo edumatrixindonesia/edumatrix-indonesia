@@ -89,11 +89,11 @@ const Footer = () => {
                     0812-1636-5729 (Kak Nia)
                   </a>
                 </li>
-                {/* <li className="menu-item menu-item-type-post_type menu-item-object-page">
-                  <a href="https://api.whatsapp.com/send?phone=+6281215523902&text=Halo%20Kak%20Eka%2C%20Saya%20ingin%20bertanya%20mengenai%20Bimbel%20di%20Edumatrix%20Indonesia%20Terima%20kasih.">
-                    0812-1552-3902 (Kak Eka)
+                <li className="menu-item menu-item-type-post_type menu-item-object-page">
+                  <a href="https://api.whatsapp.com/send?phone=6282174144728&text=Halo%20Kak%20Iva%2C%20Saya%20ingin%20bertanya%20mengenai%20Bimbel%20di%20Edumatrix%20Indonesia%20Terima%20kasih.">
+                    0821-7414-4728 (Kak Iva)
                   </a>
-                </li> */}
+                </li>
               </ul>
             </div>
           </div>
